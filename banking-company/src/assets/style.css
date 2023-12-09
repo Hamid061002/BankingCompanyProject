@@ -39,10 +39,27 @@
     font-family: LexendFontBold;
 }
 
-.LexendFontLight{
+.LexendFontLight {
     font-family: LexendFontLight;
 }
 
-.bgHeader{
+.bgHeader {
     background-image: url(../../../public/images/Abstract\ Design.svg);
+    background-size: 50%;
+}
+
+.bgYourTransactionsParrent {
+    border-radius: 8.264px;
+    background: linear-gradient(to top right, #CAFF3333, #c9ff3308, #CAFF3333);
+    /* border: 0.689px solid #262626;
+    background-blend-mode: normal, screen, normal; */
+}
+
+.bgYourTransactionsChild {
+    border-radius: 8.264px;
+}
+
+.borderStyle {
+    border-radius: 8.264px;
+    border: 0.689px solid var(--grey-15, #262626);
 }
