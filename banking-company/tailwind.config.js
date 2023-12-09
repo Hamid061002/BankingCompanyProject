@@ -29,7 +29,7 @@ export default {
         'grey-60': '#98989A',
         'grey-70': '#B3B3B3',
         'grey-75': '#BFBFBF',
-      }
+      },
     },
   },
   plugins: [],

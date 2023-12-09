@@ -1,0 +1,48 @@
+@font-face {
+    font-family: LexendFontRegular;
+    src: url(../../public/Fonts/Lexend/static/Lexend-Regular.ttf);
+}
+
+@font-face {
+    font-family: LexendFontMedium;
+    src: url(../../public/Fonts/Lexend/static/Lexend-Medium.ttf);
+}
+
+@font-face {
+    font-family: LexendFontSemi;
+    src: url(../../public/Fonts/Lexend/static/Lexend-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: LexendFontBold;
+    src: url(../../public/Fonts/Lexend/static/Lexend-Bold.ttf);
+}
+
+@font-face {
+    font-family: LexendFontLight;
+    src: url(../../public/Fonts/Lexend/static/Lexend-Light.ttf);
+}
+
+.LexendFontRegular {
+    font-family: LexendFontRegular;
+}
+
+.LexendFontMedium {
+    font-family: LexendFontMedium;
+}
+
+.LexendFontSemi {
+    font-family: LexendFontSemi;
+}
+
+.LexendFontBold {
+    font-family: LexendFontBold;
+}
+
+.LexendFontLight{
+    font-family: LexendFontLight;
+}
+
+.bgHeader{
+    background-image: url(../../../public/images/Abstract\ Design.svg);
+}
