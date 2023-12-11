@@ -4,7 +4,7 @@ function Header() {
    return (
       <header className="fixed w-full z-50 px-4">         
          <div className="flex justify-center pt-10 pb-[50px] lg:py-[30px]">
-            <div className="flex justify-between items-center w-full lg:w-[1280px] px-6 py-[14px] bg-grey-11 rounded-full text-white">
+            <div className="flex justify-between items-center w-full lg:w-[1280px] px-6 py-[14px] bg-grey-11 rounded-full text-white shadow-headerShadow">
                <div className="flex-none flex gap-1 items-center">
                   <div>
                      <img src={logo} alt="" />

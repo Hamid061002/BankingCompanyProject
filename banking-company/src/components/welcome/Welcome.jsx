@@ -3,10 +3,10 @@ import usa from '../../../public/images/usa.svg'
 import arrows from '../../../public/images/Arrows.svg'
 function Welcome() {
    return (
-      <section className="flex gap-[100px] ps-20 pe-[200px] pt-[144px]">
-         <div className="flex gap-[100px] py-[60px]">
-            <div>
-               <div className="flex items-center gap-1 text-sm LexendFontLight bg-grey-15 w-fit p-2 pe-4 rounded-full text-white LexendFontLight">
+      <section className="flex gap-[100px] px-4 lg:ps-20 lg:pe-[200px] pt-[144px]">
+         <div className="flex flex-col max-lg:items-center lg:flex-row gap-[100px] lg:py-[60px]">
+            <div className="flex flex-col max-lg:items-center">
+               <div className="flex items-center gap-1 text-xs lg:text-sm LexendFontLight bg-grey-15 w-fit p-2 pe-4 rounded-full text-white LexendFontLight">
                   <div>
                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M7.16907 3.16563C7.85588 2.37578 8.86943 1.875 10 1.875C11.1305 1.875 12.144 2.37573 12.8308 3.16551C13.8751 3.09255 14.946 3.45513 15.7455 4.25464C16.545 5.05415 16.9076 6.12507 16.8347 7.16933C17.6243 7.85613 18.125 8.86957 18.125 10C18.125 11.1306 17.6242 12.1443 16.8342 12.8311C16.907 13.8751 16.5444 14.9458 15.7451 15.7452C14.9457 16.5446 13.875 16.9072 12.8309 16.8344C12.1441 17.6242 11.1306 18.125 10 18.125C8.8695 18.125 7.856 17.6243 7.1692 16.8345C6.12493 16.9075 5.054 16.5449 4.25448 15.7454C3.45496 14.9459 3.09238 13.8749 3.16534 12.8307C2.37565 12.1439 1.875 11.1304 1.875 10C1.875 8.86951 2.37571 7.85602 3.16546 7.16921C3.09258 6.12504 3.45517 5.05423 4.25462 4.25478C5.05406 3.45533 6.12489 3.09274 7.16907 3.16563ZM13.0086 8.48827C13.2092 8.20739 13.1442 7.81705 12.8633 7.61642C12.5824 7.41579 12.192 7.48084 11.9914 7.76173L9.29525 11.5364L7.94194 10.1831C7.69786 9.93898 7.30214 9.93898 7.05806 10.1831C6.81398 10.4271 6.81398 10.8229 7.05806 11.0669L8.93306 12.9419C9.06297 13.0719 9.24346 13.138 9.42655 13.1229C9.60964 13.1077 9.7768 13.0128 9.88358 12.8633L13.0086 8.48827Z" fill="#CAFF33" />
@@ -14,37 +14,41 @@ function Welcome() {
                   </div>
                   <div className="leading-6">No LLC Required, No Credit Check.</div>
                </div>
-               <div className="mt-4">
-                  <p className="text-[38px] LexendFontMedium text-white">
+               <div className="mt-4 max-lg:text-center">
+                  <p className="text-[28px] lg:text-[38px] LexendFontRegular leading-[42px] lg:leading-[57px] text-white">
                      Welcome to YourBank Empowering Your
                      <span className="text-green-60"> Financial</span> <span className="text-green-60">Journey</span>
                   </p>
-                  <p className="text-white-90 leading-6 LexendFontLight mt-[10px] text-base">
+                  <p className="text-white-90 leading-5 lg:leading-6 LexendFontLight mt-[10px] text-sm lg:text-base">
                      At YourBank, our mission is to provide comprehensive banking solutions that empower individuals and businesses to achieve their financial goals. We are committed to delivering personalized and innovative services that prioritize our customers' needs.
                   </p>
                </div>
-               <div className="text-sm text-grey-11 bg-green-60 leading-[21px] LexendFontMedium py-[14px] w-36 text-center mt-10 rounded-full cursor-pointer hover:translate-x-1 hover:-translate-y-1 transition-all duration-300">Open Account</div>
+               <div className="text-sm text-grey-11 bg-green-60 leading-[21px] LexendFontMedium py-[14px] w-36 text-center mt-10 rounded-full cursor-pointer  lg:hover:translate-x-1 hover:-translate-y-1 transition-all duration-300">Open Account</div>
             </div>
             <div className="bgYourTransactionsParrent h-fit flex justify-center items-center p-[0.689px]">
-               <div className="flex flex-col gap-7 w-full p-[27.55px] bg-grey-10 relative bgYourTransactionsChild">
+               <div className="flex flex-col gap-7 w-full p-5 lg:p-[27.55px] bg-grey-10 relative bgYourTransactionsChild">
                   {/* Monthly Income */}
-                  <div className="flex gap-[7px] absolute -left-[50px] -top-8 w-fit h-fit bg-[#22251B] px-[14px] py-[11px] rounded-lg cursor-pointer hover:-translate-x-1 transition-all duration-300">
+                  <div className="flex gap-[7px] absolute -left-[38px] lg:-left-[50px] -top-6 lg:-top-8 w-fit h-fit bg-[#22251B] px-[10px] lg:px-[14px] py-2 lg:py-[11px] rounded-lg cursor-pointer hover:-translate-x-1 transition-all duration-300">
                      <div className="flex-none">
-                        <svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg className="hidden lg:block" width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                            <rect x="0.241699" y="0.896729" width="30.3466" height="30.2555" rx="15.1278" fill="#CAFF33" />
                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.4152 11.3887C15.7012 11.3887 15.9331 11.6193 15.9331 11.9037V15.5093H19.5585C19.8446 15.5093 20.0765 15.7399 20.0765 16.0243C20.0765 16.3088 19.8446 16.5394 19.5585 16.5394H15.9331V20.1449C15.9331 20.4294 15.7012 20.66 15.4152 20.66C15.1291 20.66 14.8973 20.4294 14.8973 20.1449V16.5394H11.2718C10.9858 16.5394 10.7539 16.3088 10.7539 16.0243C10.7539 15.7399 10.9858 15.5093 11.2718 15.5093H14.8973V11.9037C14.8973 11.6193 15.1291 11.3887 15.4152 11.3887Z" fill="#1A1A1A" />
                         </svg>
+                        <svg className="lg:hidden" width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <rect x="0.536133" y="0.126465" width="22.5976" height="22.5298" rx="11.2649" fill="#CAFF33" />
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M11.8353 7.93945C12.0483 7.93945 12.2209 8.11117 12.2209 8.323V11.0079L14.9206 11.0079C15.1336 11.0079 15.3063 11.1796 15.3063 11.3914C15.3063 11.6032 15.1336 11.775 14.9206 11.775H12.2209V14.4598C12.2209 14.6716 12.0483 14.8433 11.8353 14.8433C11.6223 14.8433 11.4496 14.6716 11.4496 14.4598V11.7749H8.74993C8.53693 11.7749 8.36426 11.6032 8.36426 11.3914C8.36426 11.1796 8.53693 11.0079 8.74993 11.0079L11.4496 11.0079V8.323C11.4496 8.11117 11.6223 7.93945 11.8353 7.93945Z" fill="#1A1A1A" />
+                        </svg>
                      </div>
                      <div className="LexendFontLight">
-                        <div className="text-white text-sm leading-5">+ $5000,00</div>
-                        <div className="text-white-90 text-[11px] leading-4">Monthly Income</div>
+                        <div className="text-white text-[10px] lg:text-sm leading-[15px] lg:leading-5">+ $5000,00</div>
+                        <div className="text-white-90 text-[8px] lg:text-[11px] leading-3 lg:leading-4">Monthly Income</div>
                      </div>
                   </div>
                   {/* Your Transactions */}
-                  <div className="flex flex-col gap-[14px] h-[183px] text-white">
-                     <div className="LexendFontMedium text-sm leading-5">Your Transactions</div>
+                  <div className="flex flex-col gap-[10px] lg:gap-[14px] h-[183px] text-white">
+                     <div className="LexendFontMedium text-[10px] lg:text-sm leading-5">Your Transactions</div>
                      {/* a card */}
-                     <div className="flex justify-between self-center items-end w-[356px] px-[16.5px] py-[11px] bg-grey-11 hover:translate-y-2 transition-all duration-300 ease-out hover:opacity-100 cursor-pointer borderStyle z-20">
+                     <div className="flex justify-between self-center items-end w-[265px] lg:w-[356px] px-[16.5px] py-[11px] bg-grey-11 hover:translate-y-2 transition-all duration-300 ease-out hover:opacity-100 cursor-pointer borderStyle z-20">
                         <div className="flex gap-[7px]">
                            <div className="flex-none">
                               <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -60,7 +64,7 @@ function Welcome() {
                         <div className="text-base LexendFontRegular">-$68.00</div>
                      </div>
                      {/* a card */}
-                     <div className="flex justify-between self-center items-end w-[327px] px-[16.5px] py-[11px] bg-grey-11 hover:translate-y-2 transition-all duration-300 ease-out hover:opacity-100 cursor-pointer borderStyle absolute top-[112px] opacity-70 z-10">
+                     <div className="flex justify-between self-center items-end w-[244px] lg:w-[327px] px-[16.5px] py-[11px] bg-grey-11 hover:translate-y-2 transition-all duration-300 ease-out hover:opacity-100 cursor-pointer borderStyle absolute top-[112px] opacity-70 z-10">
                         <div className="flex gap-[7px]">
                            <div className="flex-none">
                               <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -76,7 +80,7 @@ function Welcome() {
                         <div className="text-base LexendFontRegular">-$68.00</div>
                      </div>
                      {/* a card */}
-                     <div className="flex justify-between self-center items-end w-[300px] px-[16.5px] py-[11px] bg-grey-11 hover:translate-y-2 transition-all duration-300 ease-out hover:opacity-100 cursor-pointer borderStyle absolute top-[158px] opacity-50">
+                     <div className="flex justify-between self-center items-end w-[223px] lg:w-[300px] px-[16.5px] py-[11px] bg-grey-11 hover:translate-y-2 transition-all duration-300 ease-out hover:opacity-100 cursor-pointer borderStyle absolute top-[158px] opacity-50">
                         <div className="flex gap-[7px]">
                            <div className="flex-none">
                               <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -93,61 +97,73 @@ function Welcome() {
                      </div>
                   </div>
                   {/* Money Exchnge */}
-                  <div className="flex flex-col gap-[14px] text-white">
-                     <div className="LexendFontMedium text-sm leading-5">Money Exchange</div>
-                     <div className="grid grid-cols-2 self-center items-end w-[356px] bg-grey-11 borderStyle z-20">
-                        <div className="flex-none flex flex-col gap-[7px] p-[14px] border-r border-b border-grey-15">
+                  <div className="flex flex-col gap-[10px] lg:gap-[14px] text-white">
+                     <div className="LexendFontMedium text-[10px] lg:text-sm leading-5">Money Exchange</div>
+                     <div className="grid grid-cols-2 self-center items-end w-[265px] lg:w-[356px] bg-grey-11 borderStyle z-20">
+                        <div className="flex-none flex flex-col gap-[7px] p-[10px] lg:p-[14px] border-r border-b border-grey-15">
                            <div className='flex items-center gap-[7px]'>
-                              <div className="flex-none">
+                              <div className="flex-none max-lg:w-5">
                                  <img src={india} alt="" />
                               </div>
-                              <div className="LexendFontLight text-xs leading-5">INR</div>
+                              <div className="LexendFontLight text-[9px] lg:text-xs leading-5">INR</div>
                            </div>
-                           <div className="text-[11px] LexendFontLight leading-4">Indian Rupees</div>
+                           <div className="text-[8px] LexendFontLight leading-4">Indian Rupees</div>
                         </div>
-                        <div className="flex-none flex flex-col gap-[7px] p-[14px] border-b border-grey-15">
+                        <div className="flex-none flex flex-col gap-[7px] p-[10px] lg:p-[14px] border-b border-grey-15">
                            <div className='flex items-center gap-[7px]'>
-                              <div className="flex-none">
+                              <div className="flex-none max-lg:w-5">
                                  <img src={usa} alt="" />
                               </div>
-                              <div className="LexendFontLight text-xs leading-5">USD</div>
+                              <div className="LexendFontLight text-[9px] lg:text-xs leading-5">USD</div>
                            </div>
-                           <div className="text-[11px] LexendFontLight leading-4">United States Dollar</div>
+                           <div className="text-[8px] LexendFontLight leading-4">United States Dollar</div>
                         </div>
-                        <div className="px-[14px] py-5 border-r border-grey-15 LexendFontRegular text-sm leading-5">5,0000</div>
-                        <div className="px-[14px] py-5 LexendFontRegular text-sm leading-5">12.00</div>
+                        <div className="px-[10px] py-[15px] lg:px-[14px] lg:py-5 border-r border-grey-15 LexendFontRegular text-[10px] lg:text-sm leading-5">5,0000</div>
+                        <div className="px-[10px] py-[15px] lg:px-[14px] lg:py-5 LexendFontRegular text-[10px] lg:text-sm leading-5">12.00</div>
                      </div>
-                     <div className="bg-[#22251B] text-green-60 LexendFontRegular text-xs text-center py-[11px] mt-1 rounded-full cursor-pointer w-full mx-auto hover:w-4/5 hover:text-grey-10 hover:bg-green-60 transition-all duration-300">Exchange</div>
+                     <div className="bg-[#22251B] text-green-60 LexendFontRegular text-[9px] lg:text-xs text-center py-2 mt-1 rounded-full cursor-pointer w-full mx-auto hover:w-4/5 hover:text-grey-10 hover:bg-green-60 transition-all duration-300">Exchange</div>
                   </div>
                   {/* Arrows */}
-                  <div className="absolute -right-24 -top-2 -z-10">
+                  <div className="absolute -right-12 -top-5 lg:-right-24 lg:-top-2 -z-10">
                      <img src={arrows} alt="" />
                   </div>
                   {/* Supported Currency */}
-                  <div className='flex items-center justify-between bg-[#22251B] text-white LexendFontRegular text-xs text-center w-[295px] p-[7px] absolute 
-                  -bottom-[70px] -right-10 rounded-full'>
-                     <div className="ps-[10px] text-xs leading-[19px] LexendFontLight">Supported Currency</div>
-                     <div className=' flex gap-[5.5px] p-[7px] bg-grey-10 rounded-full'>
+                  <div className='flex items-center justify-between bg-[#22251B] text-white LexendFontRegular text-xs text-center w-[219px] lg:w-[295px] p-[5px] lg:p-[7px] absolute 
+                  -bottom-[52px] lg:-bottom-[70px] -right-10 rounded-full'>
+                     <div className="ps-[10px] text-[9px] lg:text-xs leading-[14px] lg:leading-[19px] LexendFontLight">Supported Currency</div>
+                     <div className=' flex gap-1 lg:gap-[5.5px] p-[5px] lg:p-[7px] bg-grey-10 rounded-full'>
                         <div>
-                           <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <svg className="hidden lg:visible" width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path fill-rule="evenodd" clip-rule="evenodd" d="M14.4543 27.4642C22.082 27.4642 28.2654 21.3147 28.2654 13.7289C28.2654 6.14315 22.082 -0.00634766 14.4543 -0.00634766C6.82654 -0.00634766 0.643066 6.14315 0.643066 13.7289C0.643066 21.3147 6.82654 27.4642 14.4543 27.4642Z" fill="#262626" />
                               <path fill-rule="evenodd" clip-rule="evenodd" d="M13.2442 7.38989C14.0027 7.38989 14.7585 7.38989 15.517 7.38989C15.4723 7.90018 15.4249 8.41325 15.3831 8.92354C16.2671 8.98733 17.1288 9.27021 17.904 9.68898C17.5694 10.5265 17.232 11.3641 16.8946 12.2016C16.242 11.6497 15.3831 11.3447 14.527 11.3557C14.3123 11.3613 14.0892 11.4029 13.9107 11.5249C13.7936 11.6053 13.7071 11.7301 13.682 11.8688C13.6625 11.9797 13.6681 12.1045 13.7294 12.2044C13.7992 12.3153 13.9219 12.3819 14.0446 12.4235C14.2955 12.5122 14.566 12.5178 14.8282 12.5455C15.4445 12.6204 16.0635 12.7258 16.6464 12.9449C17.0981 13.1168 17.5304 13.3747 17.8399 13.7519C18.1327 14.0986 18.3028 14.5367 18.367 14.986C18.4423 15.5046 18.4199 16.0427 18.2582 16.5474C18.1327 16.9523 17.918 17.3295 17.6391 17.6484C17.0619 18.314 16.2141 18.7134 15.3441 18.816C15.372 19.3623 15.4054 19.9059 15.4361 20.4522C14.7166 20.4522 13.9999 20.4522 13.2833 20.4522C13.3111 19.9115 13.3474 19.3707 13.3725 18.8299C12.7952 18.8104 12.2236 18.6829 11.6854 18.4804C11.1639 18.2835 10.6675 18.0228 10.2046 17.7178C10.5448 16.8469 10.885 15.9761 11.228 15.1025C11.6156 15.427 12.0284 15.7293 12.4801 15.9595C12.9654 16.2063 13.5036 16.3644 14.0501 16.3699C14.3095 16.3727 14.5772 16.3588 14.8226 16.2701C14.9732 16.2146 15.121 16.1175 15.1879 15.965C15.2576 15.8042 15.252 15.6017 15.1461 15.4575C15.0708 15.3604 14.9648 15.2939 14.8533 15.2467C14.7027 15.1857 14.5465 15.1524 14.3876 15.1275C13.8019 15.0332 13.2135 14.9555 12.6474 14.7725C12.1929 14.6255 11.7495 14.4203 11.387 14.1041C11.1583 13.9072 10.9687 13.6659 10.8348 13.3941C10.634 12.9892 10.5587 12.5316 10.5643 12.0824C10.5643 11.5804 10.6675 11.0701 10.9185 10.6291C11.136 10.2353 11.4678 9.91362 11.8415 9.66679C12.2933 9.37005 12.798 9.16759 13.3111 9.00397C13.2888 8.46594 13.2665 7.92792 13.2442 7.38989Z" fill="#CAFF33" />
                            </svg>
+                           <svg className="lg:hidden" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M11.0238 21.3715C16.7037 21.3715 21.3083 16.7923 21.3083 11.1435C21.3083 5.49476 16.7037 0.915527 11.0238 0.915527C5.34379 0.915527 0.739258 5.49476 0.739258 11.1435C0.739258 16.7923 5.34379 21.3715 11.0238 21.3715Z" fill="#262626" />
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1228 6.4231C10.6877 6.4231 11.2504 6.4231 11.8152 6.4231C11.782 6.80308 11.7467 7.18514 11.7156 7.56513C12.3738 7.61263 13.0155 7.82327 13.5928 8.13511C13.3436 8.75879 13.0923 9.38247 12.8411 10.0061C12.3551 9.59518 11.7156 9.36801 11.0781 9.37627C10.9182 9.3804 10.752 9.41138 10.6191 9.50225C10.5319 9.56214 10.4675 9.65507 10.4489 9.75833C10.4343 9.84093 10.4385 9.93386 10.4842 10.0082C10.5361 10.0908 10.6274 10.1404 10.7188 10.1714C10.9057 10.2374 11.1071 10.2416 11.3023 10.2622C11.7613 10.318 12.2222 10.3965 12.6563 10.5596C12.9927 10.6876 13.3145 10.8797 13.545 11.1606C13.7631 11.4187 13.8897 11.745 13.9375 12.0796C13.9936 12.4657 13.977 12.8664 13.8565 13.2422C13.7631 13.5438 13.6032 13.8246 13.3955 14.0621C12.9657 14.5578 12.3344 14.8551 11.6865 14.9315C11.7073 15.3384 11.7322 15.7432 11.755 16.15C11.2193 16.15 10.6856 16.15 10.1519 16.15C10.1727 15.7473 10.1997 15.3446 10.2184 14.9419C9.78851 14.9274 9.36281 14.8324 8.96203 14.6817C8.57372 14.535 8.20409 14.3409 7.85938 14.1137C8.11272 13.4653 8.36606 12.8168 8.62148 12.1663C8.91012 12.4079 9.21745 12.633 9.55386 12.8044C9.91518 12.9882 10.316 13.1059 10.723 13.1101C10.9161 13.1121 11.1154 13.1018 11.2982 13.0357C11.4103 12.9944 11.5204 12.9221 11.5702 12.8086C11.6221 12.6888 11.618 12.538 11.5391 12.4306C11.483 12.3584 11.4041 12.3088 11.321 12.2737C11.2089 12.2283 11.0926 12.2035 10.9742 12.1849C10.5382 12.1147 10.1 12.0568 9.67845 11.9205C9.33997 11.8111 9.00979 11.6583 8.73984 11.4228C8.56956 11.2762 8.42836 11.0965 8.32868 10.8942C8.17917 10.5927 8.1231 10.2519 8.12725 9.91734C8.12725 9.54355 8.20409 9.16356 8.39098 8.8352C8.55295 8.54195 8.80006 8.30239 9.07832 8.11859C9.41473 7.89762 9.79059 7.74686 10.1727 7.62502C10.1561 7.22438 10.1394 6.82374 10.1228 6.4231Z" fill="#CAFF33" />
+                           </svg>
                         </div>
                         <div>
-                           <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <svg className="hidden lg:visible" width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M28.3209 13.73C28.3209 21.2758 22.1701 27.393 14.5827 27.393C6.9951 27.393 0.844238 21.2758 0.844238 13.73C0.844238 6.1842 6.9951 0.0671387 14.5827 0.0671387C22.17 0.0671387 28.3209 6.1842 28.3209 13.73Z" fill="#262626" />
                               <path d="M18.4426 19.4381L18.1256 18.0065C18.1076 17.9223 18.0623 17.8592 17.9897 17.8174C17.9112 17.7753 17.8328 17.7695 17.7544 17.7995L17.7091 17.8174L17.6003 17.8444C17.5519 17.8562 17.4961 17.8698 17.4327 17.8848C17.3693 17.8998 17.2955 17.9147 17.2109 17.9298C17.1267 17.9448 17.0372 17.9584 16.9439 17.9704C16.8504 17.9822 16.7494 17.9929 16.6407 18.0019C16.5319 18.0108 16.4234 18.0153 16.3146 18.0153C15.548 18.0153 14.8583 17.8098 14.2457 17.3986C13.633 16.9873 13.1818 16.4305 12.8921 15.7282H16.396C16.4625 15.7282 16.5228 15.7058 16.577 15.6607C16.6315 15.6157 16.6647 15.5603 16.6765 15.494L16.8938 14.4855C16.912 14.3957 16.8938 14.3145 16.8397 14.2424C16.7793 14.1703 16.7037 14.1343 16.6133 14.1343H12.4575C12.4394 13.7261 12.4394 13.4109 12.4575 13.1888H16.876C17.0391 13.1888 17.1356 13.1108 17.1658 12.9547L17.3831 11.9282C17.4011 11.8442 17.3802 11.7662 17.3197 11.6941C17.2655 11.6221 17.1901 11.5859 17.0935 11.5859H12.856C13.1578 10.9136 13.6104 10.3853 14.2141 10.0011C14.8178 9.61681 15.4999 9.42477 16.2604 9.42477C16.2846 9.41279 16.3736 9.41582 16.5274 9.43379C16.6813 9.45171 16.769 9.45928 16.79 9.45625C16.8109 9.45328 16.8897 9.46234 17.0253 9.48322C17.1612 9.50422 17.2292 9.51475 17.2292 9.51475L17.3876 9.54623C17.433 9.55531 17.4677 9.56269 17.4918 9.56878L17.528 9.57774C17.6064 9.60187 17.6787 9.5943 17.7453 9.55531C17.8118 9.51617 17.8541 9.45773 17.8722 9.3797L18.2616 7.94799C18.2796 7.86993 18.2705 7.79789 18.2345 7.73188C18.1801 7.65972 18.1196 7.61471 18.0532 7.59677C17.498 7.45872 16.9122 7.38965 16.2967 7.38965C14.9444 7.38965 13.7358 7.77395 12.6703 8.54225C11.6049 9.3106 10.87 10.3252 10.4655 11.5858H9.57828C9.49373 11.5858 9.42437 11.6128 9.37001 11.6668C9.31582 11.7208 9.28857 11.7898 9.28857 11.8739V12.9004C9.28857 12.9845 9.31572 13.0535 9.37001 13.1074C9.4244 13.1615 9.49386 13.1884 9.57828 13.1884H10.185C10.1667 13.4767 10.1638 13.7916 10.1758 14.134H9.57828C9.49982 14.134 9.43192 14.1625 9.37458 14.2195C9.31727 14.2765 9.28857 14.3441 9.28857 14.422V15.4396C9.28857 15.5177 9.31727 15.5851 9.37458 15.6423C9.43195 15.6993 9.49982 15.7276 9.57828 15.7276H10.4385C10.8187 17.0542 11.5371 18.1094 12.5935 18.8927C13.6499 19.6763 14.8843 20.0679 16.2967 20.0679C16.4115 20.0679 16.5276 20.0651 16.6454 20.0588C16.7633 20.0528 16.8733 20.0437 16.9759 20.0319C17.0785 20.02 17.1797 20.0066 17.2793 19.9915C17.3788 19.9764 17.4694 19.9616 17.5508 19.9464C17.6323 19.9315 17.7093 19.9165 17.7816 19.9016C17.8541 19.8864 17.919 19.8701 17.9765 19.852C18.0338 19.8342 18.0818 19.8205 18.1212 19.8117C18.1605 19.8027 18.1922 19.792 18.2162 19.7802L18.2616 19.7711C18.328 19.7471 18.3793 19.7036 18.4155 19.6404C18.4517 19.5778 18.4606 19.5101 18.4426 19.4381Z" fill="#CAFF33" />
                            </svg>
-                        </div>
-                        <div>
-                           <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M28.116 17.0521C26.2714 24.4103 18.7771 28.888 11.3773 27.0535C3.98096 25.219 -0.521915 17.7659 1.32317 10.4081C3.16697 3.04897 10.6608 -1.4296 18.0584 0.404923C25.4578 2.23944 29.9602 9.69341 28.1156 17.0521H28.116Z" fill="#262626" />
-                              <path fill-rule="evenodd" clip-rule="evenodd" d="M18.8764 12.1338C19.0626 10.8939 18.1134 10.2274 16.8155 9.78278L17.2365 8.10324L16.2082 7.84846L15.7983 9.48373C15.5283 9.41676 15.2508 9.35358 14.975 9.29097L15.3878 7.64492L14.3604 7.39014L13.9391 9.06909C13.7154 9.01843 13.4958 8.96834 13.2826 8.91564L13.2838 8.9104L11.8661 8.55836L11.5926 9.65029C11.5926 9.65029 12.3554 9.82413 12.3393 9.8349C12.7556 9.93827 12.8312 10.2123 12.8183 10.4295L12.3387 12.3428C12.3674 12.3501 12.4046 12.3606 12.4455 12.3769L12.3372 12.3501L11.6647 15.0305C11.6137 15.1562 11.4846 15.3449 11.1936 15.2733C11.2038 15.2882 10.4464 15.0878 10.4464 15.0878L9.93604 16.2584L11.2741 16.59C11.4251 16.6277 11.5743 16.6664 11.7219 16.7047C11.8175 16.7295 11.9124 16.7541 12.0067 16.7781L11.5812 18.4772L12.608 18.732L13.0297 17.0513C13.3099 17.127 13.5822 17.1968 13.8486 17.2627L13.4287 18.9355L14.4567 19.1903L14.8822 17.4947C16.6351 17.8246 17.9535 17.6916 18.5078 16.1151C18.9549 14.8456 18.4858 14.1132 17.5635 13.6354C18.2352 13.4808 18.7411 13.0414 18.8761 12.1338H18.8764ZM16.5256 15.4089C16.2338 16.5741 14.3994 16.0919 13.5609 15.8716C13.4858 15.8518 13.4187 15.8342 13.3614 15.82L13.9259 13.5695C13.9959 13.5868 14.0815 13.6059 14.1784 13.6276L14.1784 13.6276C15.0459 13.8212 16.8238 14.2179 16.5259 15.4089H16.5256ZM14.3529 12.5835C15.0526 12.7691 16.5777 13.1737 16.8434 12.1152C17.115 11.0324 15.632 10.706 14.9077 10.5466C14.8263 10.5287 14.7545 10.5129 14.6958 10.4983L14.184 12.5395C14.2324 12.5515 14.2893 12.5666 14.3529 12.5835Z" fill="#CAFF33" />
+                           <svg className="lg:hidden" width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M20.9234 11.1443C20.9234 16.7633 16.3432 21.3184 10.6932 21.3184C5.04313 21.3184 0.462891 16.7633 0.462891 11.1443C0.462891 5.52529 5.04313 0.970215 10.6932 0.970215C16.3432 0.970215 20.9234 5.52529 20.9234 11.1443Z" fill="#262626" />
+                              <path d="M13.5675 15.395L13.3315 14.3289C13.3181 14.2662 13.2843 14.2193 13.2303 14.1881C13.1718 14.1568 13.1134 14.1524 13.0551 14.1748L13.0213 14.1881L12.9403 14.2082C12.9043 14.217 12.8627 14.2272 12.8155 14.2383C12.7683 14.2495 12.7134 14.2606 12.6503 14.2719C12.5876 14.283 12.521 14.2932 12.4515 14.3021C12.3819 14.3108 12.3067 14.3188 12.2257 14.3255C12.1447 14.3321 12.0639 14.3355 11.9829 14.3355C11.4121 14.3355 10.8985 14.1825 10.4423 13.8763C9.98605 13.57 9.65005 13.1553 9.43432 12.6324H12.0435C12.093 12.6324 12.138 12.6157 12.1783 12.5821C12.2189 12.5487 12.2436 12.5074 12.2524 12.458L12.4142 11.707C12.4278 11.6401 12.4142 11.5797 12.3739 11.526C12.329 11.4723 12.2726 11.4455 12.2053 11.4455H9.11075C9.09726 11.1415 9.09726 10.9069 9.11075 10.7414H12.401C12.5224 10.7414 12.5943 10.6834 12.6167 10.5671L12.7786 9.80273C12.7919 9.74016 12.7764 9.6821 12.7313 9.62841C12.691 9.57477 12.6349 9.54784 12.5629 9.54784H9.40743C9.63217 9.04719 9.96926 8.65383 10.4188 8.36773C10.8683 8.08156 11.3762 7.93855 11.9426 7.93855C11.9606 7.92963 12.0268 7.93188 12.1414 7.94527C12.256 7.95861 12.3213 7.96425 12.3369 7.96199C12.3525 7.95978 12.4111 7.96652 12.5122 7.98207C12.6133 7.99771 12.6639 8.00556 12.6639 8.00556L12.7819 8.029C12.8157 8.03576 12.8416 8.04126 12.8595 8.04579L12.8865 8.05246C12.9449 8.07042 12.9987 8.06479 13.0483 8.03576C13.0978 8.00661 13.1293 7.9631 13.1428 7.90499L13.4327 6.83886C13.4462 6.78073 13.4394 6.72709 13.4126 6.67794C13.3721 6.6242 13.327 6.59069 13.2776 6.57733C12.8641 6.47453 12.4279 6.4231 11.9696 6.4231C10.9626 6.4231 10.0626 6.70927 9.26921 7.28138C8.47585 7.85354 7.92856 8.60907 7.62739 9.54777H6.9667C6.90374 9.54777 6.8521 9.56785 6.81162 9.60808C6.77126 9.64826 6.75098 9.69969 6.75098 9.76231V10.5267C6.75098 10.5893 6.77119 10.6407 6.81162 10.6809C6.85212 10.7211 6.90384 10.7412 6.9667 10.7412H7.41847C7.40489 10.9558 7.40274 11.1904 7.41166 11.4453H6.9667C6.90828 11.4453 6.85772 11.4665 6.81502 11.509C6.77235 11.5514 6.75098 11.6017 6.75098 11.6597V12.4175C6.75098 12.4757 6.77235 12.5258 6.81502 12.5684C6.85774 12.6109 6.90828 12.6319 6.9667 12.6319H7.60725C7.89042 13.6198 8.42536 14.4056 9.21196 14.9889C9.99861 15.5724 10.9178 15.864 11.9696 15.864C12.055 15.864 12.1415 15.8619 12.2292 15.8572C12.3171 15.8527 12.3989 15.846 12.4754 15.8371C12.5517 15.8283 12.6271 15.8183 12.7013 15.8071C12.7754 15.7958 12.8428 15.7848 12.9035 15.7735C12.9641 15.7624 13.0215 15.7512 13.0753 15.7401C13.1293 15.7288 13.1777 15.7167 13.2204 15.7032C13.2631 15.6899 13.2989 15.6798 13.3282 15.6732C13.3575 15.6665 13.3811 15.6585 13.3989 15.6497L13.4327 15.643C13.4822 15.6251 13.5204 15.5927 13.5473 15.5456C13.5743 15.499 13.5809 15.4486 13.5675 15.395Z" fill="#CAFF33" />
                            </svg>
                         </div>
                         <div>
-                           <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <svg className="hidden lg:visible" width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M28.116 17.0521C26.2714 24.4103 18.7771 28.888 11.3773 27.0535C3.98096 25.219 -0.521915 17.7659 1.32317 10.4081C3.16697 3.04897 10.6608 -1.4296 18.0584 0.404923C25.4578 2.23944 29.9602 9.69341 28.1156 17.0521H28.116Z" fill="#262626" />
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M18.8764 12.1338C19.0626 10.8939 18.1134 10.2274 16.8155 9.78278L17.2365 8.10324L16.2082 7.84846L15.7983 9.48373C15.5283 9.41676 15.2508 9.35358 14.975 9.29097L15.3878 7.64492L14.3604 7.39014L13.9391 9.06909C13.7154 9.01843 13.4958 8.96834 13.2826 8.91564L13.2838 8.9104L11.8661 8.55836L11.5926 9.65029C11.5926 9.65029 12.3554 9.82413 12.3393 9.8349C12.7556 9.93827 12.8312 10.2123 12.8183 10.4295L12.3387 12.3428C12.3674 12.3501 12.4046 12.3606 12.4455 12.3769L12.3372 12.3501L11.6647 15.0305C11.6137 15.1562 11.4846 15.3449 11.1936 15.2733C11.2038 15.2882 10.4464 15.0878 10.4464 15.0878L9.93604 16.2584L11.2741 16.59C11.4251 16.6277 11.5743 16.6664 11.7219 16.7047C11.8175 16.7295 11.9124 16.7541 12.0067 16.7781L11.5812 18.4772L12.608 18.732L13.0297 17.0513C13.3099 17.127 13.5822 17.1968 13.8486 17.2627L13.4287 18.9355L14.4567 19.1903L14.8822 17.4947C16.6351 17.8246 17.9535 17.6916 18.5078 16.1151C18.9549 14.8456 18.4858 14.1132 17.5635 13.6354C18.2352 13.4808 18.7411 13.0414 18.8761 12.1338H18.8764ZM16.5256 15.4089C16.2338 16.5741 14.3994 16.0919 13.5609 15.8716C13.4858 15.8518 13.4187 15.8342 13.3614 15.82L13.9259 13.5695C13.9959 13.5868 14.0815 13.6059 14.1784 13.6276L14.1784 13.6276C15.0459 13.8212 16.8238 14.2179 16.5259 15.4089H16.5256ZM14.3529 12.5835C15.0526 12.7691 16.5777 13.1737 16.8434 12.1152C17.115 11.0324 15.632 10.706 14.9077 10.5466C14.8263 10.5287 14.7545 10.5129 14.6958 10.4983L14.184 12.5395C14.2324 12.5515 14.2893 12.5666 14.3529 12.5835Z" fill="#CAFF33" />
+                           </svg>
+                           <svg className="lg:hidden" width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M20.3432 13.6182C18.9696 19.0975 13.389 22.4318 7.8787 21.0657C2.37103 19.6997 -0.982045 14.1497 0.391901 8.6707C1.76488 3.19073 7.34519 -0.144233 12.8538 1.22184C18.3638 2.58792 21.7165 8.13852 20.3429 13.6182H20.3432Z" fill="#262626" />
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M13.4631 9.9557C13.6018 9.03244 12.8949 8.53612 11.9284 8.20502L12.2419 6.95435L11.4762 6.76463L11.171 7.98234C10.97 7.93247 10.7633 7.88542 10.5579 7.8388L10.8653 6.61307L10.1003 6.42334L9.78653 7.67357C9.61996 7.63585 9.45644 7.59855 9.29771 7.55931L9.29858 7.5554L8.2429 7.29326L8.03926 8.10636C8.03926 8.10636 8.60722 8.23581 8.59523 8.24383C8.90526 8.32081 8.96151 8.52484 8.95192 8.6866L8.59479 10.1114C8.61616 10.1168 8.64385 10.1246 8.67437 10.1367L8.5937 10.1168L8.0929 12.1127C8.05496 12.2064 7.95881 12.3469 7.74209 12.2935C7.74972 12.3046 7.18569 12.1554 7.18569 12.1554L6.80566 13.0271L7.80205 13.274C7.91452 13.3021 8.02563 13.3309 8.13551 13.3594L8.1356 13.3594C8.20675 13.3779 8.27739 13.3962 8.34755 13.4141L8.03076 14.6793L8.79538 14.869L9.10934 13.6175C9.31799 13.6739 9.52075 13.7259 9.71916 13.7749L9.40651 15.0206L10.172 15.2103L10.4888 13.9477C11.7941 14.1934 12.7759 14.0943 13.1886 12.9204C13.5215 11.975 13.1723 11.4297 12.4855 11.0739C12.9856 10.9587 13.3624 10.6316 13.4629 9.9557H13.4631ZM11.7127 12.3946C11.4953 13.2623 10.1294 12.9033 9.505 12.7392L9.50492 12.7391C9.44904 12.7244 9.39909 12.7113 9.35645 12.7008L9.7768 11.0249C9.82895 11.0378 9.89267 11.0521 9.96484 11.0682C10.6108 11.2123 11.9347 11.5078 11.7129 12.3946H11.7127ZM10.0945 10.2905C10.6156 10.4287 11.7512 10.7301 11.9491 9.94184C12.1514 9.13547 11.047 8.89243 10.5077 8.77373C10.447 8.76039 10.3936 8.74862 10.3499 8.73779L9.96875 10.2578C10.0048 10.2667 10.0471 10.2779 10.0945 10.2905Z" fill="#CAFF33" />
+                           </svg>
+                        </div>
+                        <div>
+                           <svg className="hidden lg:visible" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M27.5851 13.7295C27.5851 21.2753 21.4343 27.3925 13.8468 27.3925C6.25926 27.3925 0.108398 21.2753 0.108398 13.7295C0.108398 6.18371 6.25926 0.0666504 13.8468 0.0666504C21.4342 0.0666504 27.5851 6.18371 27.5851 13.7295Z" fill="#262626" />
                               <g opacity="0.8">
                                  <path d="M13.8017 7.39062L13.7168 7.67746V16.0008L13.8017 16.0851L17.6866 13.8013L13.8017 7.39062Z" fill="#CAFF33" />
@@ -156,6 +172,17 @@ function Welcome() {
                                  <path d="M13.8029 20.5038V17.342L9.91797 15.0593L13.8029 20.5038Z" fill="#CAFF33" />
                                  <path d="M13.8027 16.085L17.6876 13.8013L13.8027 12.0452V16.085Z" fill="#CAFF33" />
                                  <path d="M9.91797 13.8013L13.8029 16.0851V12.0452L9.91797 13.8013Z" fill="#CAFF33" />
+                              </g>
+                           </svg>
+                           <svg className="lg:hidden" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M21.2672 11.144C21.2672 16.763 16.687 21.3182 11.037 21.3182C5.38688 21.3182 0.806641 16.763 0.806641 11.144C0.806641 5.52504 5.38688 0.969971 11.037 0.969971C16.6869 0.969971 21.2672 5.52504 21.2672 11.144Z" fill="#262626" />
+                              <g opacity="0.8">
+                                 <path d="M11.0026 6.42358L10.9395 6.63718V12.8352L11.0026 12.8979L13.8956 11.1973L11.0026 6.42358Z" fill="#CAFF33" />
+                                 <path d="M11.0033 6.42358L8.11035 11.1973L11.0033 12.8979V9.88961V6.42358Z" fill="#CAFF33" />
+                                 <path d="M11.0034 13.8338L10.9678 13.877V16.0848L11.0034 16.1883L13.8981 12.134L11.0034 13.8338Z" fill="#CAFF33" />
+                                 <path d="M11.0033 16.1883V13.8338L8.11035 12.134L11.0033 16.1883Z" fill="#CAFF33" />
+                                 <path d="M11.0029 12.8979L13.8958 11.1973L11.0029 9.88965V12.8979Z" fill="#CAFF33" />
+                                 <path d="M8.11035 11.1973L11.0033 12.898V9.88965L8.11035 11.1973Z" fill="#CAFF33" />
                               </g>
                            </svg>
                         </div>

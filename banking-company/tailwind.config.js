@@ -30,6 +30,9 @@ export default {
         'grey-70': '#B3B3B3',
         'grey-75': '#BFBFBF',
       },
+      boxShadow:{
+        'headerShadow': '0 0 35px 15px #1C1C1C' 
+      }
     },
   },
   plugins: [],
