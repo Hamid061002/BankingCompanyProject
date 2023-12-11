@@ -44,7 +44,7 @@ function Welcome() {
                   <div className="flex flex-col gap-[14px] h-[183px] text-white">
                      <div className="LexendFontMedium text-sm leading-5">Your Transactions</div>
                      {/* a card */}
-                     <div className="flex justify-between self-center items-end w-[356px] px-[16.5px] py-[11px] bg-grey-11 borderStyle z-20">
+                     <div className="flex justify-between self-center items-end w-[356px] px-[16.5px] py-[11px] bg-grey-11 hover:translate-y-2 transition-all duration-300 ease-out hover:opacity-100 cursor-pointer borderStyle z-20">
                         <div className="flex gap-[7px]">
                            <div className="flex-none">
                               <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -60,7 +60,7 @@ function Welcome() {
                         <div className="text-base LexendFontRegular">-$68.00</div>
                      </div>
                      {/* a card */}
-                     <div className="flex justify-between self-center items-end w-[327px] px-[16.5px] py-[11px] bg-grey-11 borderStyle absolute top-[112px] opacity-70 z-10">
+                     <div className="flex justify-between self-center items-end w-[327px] px-[16.5px] py-[11px] bg-grey-11 hover:translate-y-2 transition-all duration-300 ease-out hover:opacity-100 cursor-pointer borderStyle absolute top-[112px] opacity-70 z-10">
                         <div className="flex gap-[7px]">
                            <div className="flex-none">
                               <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -76,7 +76,7 @@ function Welcome() {
                         <div className="text-base LexendFontRegular">-$68.00</div>
                      </div>
                      {/* a card */}
-                     <div className="flex justify-between self-center items-end w-[300px] px-[16.5px] py-[11px] bg-grey-11 borderStyle absolute top-[158px] opacity-70">
+                     <div className="flex justify-between self-center items-end w-[300px] px-[16.5px] py-[11px] bg-grey-11 hover:translate-y-2 transition-all duration-300 ease-out hover:opacity-100 cursor-pointer borderStyle absolute top-[158px] opacity-50">
                         <div className="flex gap-[7px]">
                            <div className="flex-none">
                               <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
