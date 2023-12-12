@@ -1,6 +1,7 @@
 import Footer from '../../components/footer/Footer'
 import Header from '../../components/header/Header'
 import OurProducts from '../../components/our products/OurProducts'
+import UseCases from '../../components/use cases/UseCases'
 import Welcome from '../../components/welcome/Welcome'
 function Home() {
     return (
@@ -11,6 +12,7 @@ function Home() {
                 <div className="flex flex-col gap-20 lg:gap-[120px]">
                     <Welcome />
                     <OurProducts />
+                    <UseCases />
                     <Footer />
                 </div>
             </div>

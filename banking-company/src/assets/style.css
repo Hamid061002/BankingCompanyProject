@@ -68,3 +68,16 @@
     border-radius: 70px;
     background: linear-gradient(180deg, rgba(202, 255, 51, 0.05) 0%, rgba(202, 255, 51, 0.00) 100%);
 }
+
+.useCaseBgStyleLeft {
+    background-image: url(../../public/images/Abstract\ Design\ useCase\ left.svg);
+}
+
+.useCaseBgStyleRight {
+    background-image: url(../../public/images/Abstract\ Design\ useCase\ right.svg);
+}
+
+.useCaseIconsStyle {
+    border-radius: 70px;
+    background: linear-gradient(180deg, rgba(202, 255, 51, 0.05) 0%, rgba(202, 255, 51, 0.00) 100%);
+}
