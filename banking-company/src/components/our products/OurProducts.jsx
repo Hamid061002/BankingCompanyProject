@@ -1,6 +1,6 @@
 function OurProducts() {
    return (
-      <section className="flex flex-col gap-[60px] lg:gap-20 px-4 lg:px-20 pt-[120px]">
+      <section className="flex flex-col gap-[60px] lg:gap-20 px-4 lg:px-20 mt-[50px]">
          <div className="flex flex-col lg:flex-row justify-between gap-5 lg:gap-[150px] items-center lg:items-end">
             <div className="flex flex-col items-center lg:items-start gap-[10px]">
                <div className="text-[28px] lg:text-[38px] LexendFontRegular text-white leading-[42px] lg:leading-[57px] transition-all duration-300">
