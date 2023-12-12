@@ -28,7 +28,7 @@ function Welcome() {
             <div className="bgYourTransactionsParrent h-fit flex justify-center items-center p-[0.689px]">
                <div className="flex flex-col gap-7 w-full p-5 lg:p-[27.55px] bg-grey-10 relative bgYourTransactionsChild">
                   {/* Monthly Income */}
-                  <div className="flex gap-[7px] absolute -left-[38px] lg:-left-[50px] -top-6 lg:-top-8 w-fit h-fit bg-[#22251B] px-[10px] lg:px-[14px] py-2 lg:py-[11px] rounded-lg cursor-pointer hover:-translate-x-1 transition-all duration-300">
+                  <div className="flex gap-[7px] absolute -left-[38px] lg:-left-[50px] -top-6 lg:-top-8 w-fit h-fit bg-[#22251B] px-[10px] lg:px-[14px] py-2 lg:py-[11px] rounded-lg cursor-default hover:-translate-x-1 transition-all duration-300">
                      <div className="flex-none">
                         <svg className="hidden lg:block" width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                            <rect x="0.241699" y="0.896729" width="30.3466" height="30.2555" rx="15.1278" fill="#CAFF33" />

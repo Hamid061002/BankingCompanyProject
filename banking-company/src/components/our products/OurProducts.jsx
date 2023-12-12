@@ -1,21 +1,21 @@
 function OurProducts() {
    return (
-      <section className="flex flex-col gap-20 px-20 pt-[120px]">
-         <div className="flex justify-between gap-[150px] items-end">
-            <div className="flex flex-col gap-[10px]">
-               <div className="text-[38px] LexendFontRegular text-white leading-[57px]">
+      <section className="flex flex-col gap-[60px] lg:gap-20 px-4 lg:px-20 pt-[120px]">
+         <div className="flex flex-col lg:flex-row justify-between gap-5 lg:gap-[150px] items-center lg:items-end">
+            <div className="flex flex-col items-center lg:items-start gap-[10px]">
+               <div className="text-[28px] lg:text-[38px] LexendFontRegular text-white leading-[42px] lg:leading-[57px] transition-all duration-300">
                   Our <span className="text-green-60">Products</span>
                </div>
-               <div className="text-grey-70 leading-5 lg:leading-6 LexendFontLight text-sm lg:text-base">
+               <div className="text-grey-70 leading-5 lg:leading-6 LexendFontLight text-sm lg:text-base text-center lg:text-start">
                   Discover a range of comprehensive and customizable banking products at YourBank, designed to suit your unique financial needs and aspirations
                </div>
             </div>
             <div className="flex-none flex text-sm LexendFontRegular p-3 bg-grey-11 border border-grey-15 rounded-full">
-               <div className="flex-none py-[10px] px-[18px] rounded-full leading-5 cursor-pointer bg-green-60 text-grey-11">For Individuals</div>
-               <div className="flex-none py-[10px] px-[18px] rounded-full leading-5 cursor-pointer text-white">For Businesses</div>
+               <div className="flex-none py-[10px] px-[18px] rounded-full leading-5 cursor-pointer transition-all duration-300 hover:scale-105 bg-green-60 text-grey-11">For Individuals</div>
+               <div className="flex-none py-[10px] px-[18px] rounded-full leading-5 cursor-pointer transition-all duration-300 hover:scale-105 text-white">For Businesses</div>
             </div>
          </div>
-         <div className="flex gap-10">
+         <div className="flex flex-col lg:flex-row gap-[30px] lg:gap-10">
             {/* a item */}
             <div className="basis-1/3 flex flex-col items-center">
                <div className="ourProductsIconStyle p-2 w-fit">
@@ -35,13 +35,13 @@ function OurProducts() {
                      </defs>
                   </svg>
                </div>
-               <div className="LexendFontRegular text-xl leading-[30px] mt-6 text-white">Checking Accounts</div>
-               <div className="LexendFontLight text-sm leading-6 text-grey-70 mt-4 text-center">
+               <div className="LexendFontRegular text-xl leading-[30px] mt-5 lg:mt-6 text-white text-center">Checking Accounts</div>
+               <div className="LexendFontLight text-sm lg:text-base leading-6 text-grey-70 mt-3 lg:mt-4 text-center">
                   Enjoy easy and convenient access to your funds with our range of checking account options. Benefit from features such as online and mobile banking, debit cards, and free ATM access.
                </div>
             </div>
             {/* line between */}
-            <div className="w-[1px] h-262px bg-grey-15"></div>
+            <div className="w-full lg:w-[1px] h-[1px] lg:h-262px bg-grey-15"></div>
             {/* a item */}
             <div className="basis-1/3 flex flex-col items-center">
                <div className="ourProductsIconStyle p-2 w-fit">
@@ -62,13 +62,13 @@ function OurProducts() {
                      </defs>
                   </svg>
                </div>
-               <div className="LexendFontRegular text-xl leading-[30px] mt-6 text-white">Savings Accounts</div>
-               <div className="LexendFontLight text-sm leading-6 text-grey-70 mt-4 text-center">
+               <div className="LexendFontRegular text-xl leading-[30px] mt-5 lg:mt-6 text-white text-center">Savings Accounts</div>
+               <div className="LexendFontLight text-sm lg:text-base leading-6 text-grey-70 mt-3 lg:mt-4 text-center">
                   Build your savings with our competitive interest rates and flexible savings account options. Whether you're saving for a specific goal or want to grow your wealth over time, we have the right account for you.
                </div>
             </div>
             {/* line between */}
-            <div className="w-[1px] h-262px bg-grey-15"></div>
+            <div className="w-full lg:w-[1px] h-[1px] lg:h-262px bg-grey-15"></div>
             {/* a item */}
             <div className="basis-1/3 flex flex-col items-center">
                <div className="ourProductsIconStyle p-2 w-fit">
@@ -90,8 +90,8 @@ function OurProducts() {
                      </defs>
                   </svg>
                </div>
-               <div className="LexendFontRegular text-xl leading-[30px] mt-6 text-white">Loans and Mortgages</div>
-               <div className="LexendFontLight text-sm leading-6 text-grey-70 mt-4 text-center">
+               <div className="LexendFontRegular text-xl leading-[30px] mt-5 lg:mt-6 text-white text-center">Loans and Mortgages</div>
+               <div className="LexendFontLight text-sm lg:text-base leading-6 text-grey-70 mt-3 lg:mt-4 text-center">
                   Realize your dreams with our flexible loan and mortgage options. From personal loans to home mortgages, our experienced loan officers are here to guide you through the application process and help you secure the funds you need.
                </div>
             </div>
