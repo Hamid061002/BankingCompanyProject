@@ -18,11 +18,7 @@ function Home() {
             </div>
          </div>
       </section>
-<<<<<<< HEAD
    )
-=======
-   );
->>>>>>> cb313e11960ff3dabeaccff8427dba678c04dc17
 }
 
 export default Home;
