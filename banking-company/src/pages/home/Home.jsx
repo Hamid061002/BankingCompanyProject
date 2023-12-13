@@ -1,8 +1,9 @@
-import Footer from '../../components/footer/Footer'
-import Header from '../../components/header/Header'
-import OurProducts from '../../components/our products/OurProducts'
-import UseCases from '../../components/use cases/UseCases'
-import Welcome from '../../components/welcome/Welcome'
+import Footer from "../../components/footer/Footer";
+import Header from "../../components/header/Header";
+import OurProducts from "../../components/our products/OurProducts";
+import UseCases from "../../components/use cases/UseCases";
+import Welcome from "../../components/welcome/Welcome";
+
 function Home() {
    return (
       <section className="flex justify-center bg-grey-10 absolute w-full -z-50 overflow-x-hidden">
@@ -17,7 +18,11 @@ function Home() {
             </div>
          </div>
       </section>
+<<<<<<< HEAD
    )
+=======
+   );
+>>>>>>> cb313e11960ff3dabeaccff8427dba678c04dc17
 }
 
-export default Home
+export default Home;
