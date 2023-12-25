@@ -1,8 +1,18 @@
+import { useState } from 'react'
 import logo from '../../../public/images/logos/YourBank.svg'
 import logoText from '../../../public/images/logos/YourBankText.svg'
 function Header() {
+   let loginSignUpBtnClass = 'leading-7 py-[15px] px-[30px] rounded-full cursor-pointer z-10 transition-all duration-300 active:bg-[#22251B] active:text-green-60'
+   let loginSignUpBtnClassActive = `${loginSignUpBtnClass} text-grey-11`
+   let bgLoginSignUp = 'absolute right-[0.4px] bg-green-60 rounded-full h-[56px] transition-all duration-300'
+   let bgLoginActive = `${bgLoginSignUp} w-[108px]`
+   let bgSignUpActive = `${bgLoginSignUp} w-[128px] -translate-x-[109px]`
+   let [loginBtn, setLoginBtn] = useState(true)
+   function handleClick() {
+
+   }
    return (
-      <header className="fixed w-full z-50 px-4">         
+      <header className="fixed w-full z-50 px-4">
          <div className="flex justify-center pt-10 pb-[50px] lg:py-[30px]">
             <div className="flex justify-between items-center w-full lg:w-[1280px] px-6 py-[14px] bg-grey-11 rounded-full text-white shadow-headerShadow">
                <div className="flex-none flex gap-1 items-center">
@@ -19,9 +29,10 @@ function Header() {
                   <div className="py-[10px] hover:px-[18px] rounded-full hover:bg-grey-15 transition-all duration-300 cursor-pointer leading-5">About</div>
                   <div className="py-[10px] hover:px-[18px] rounded-full hover:bg-grey-15 transition-all duration-300 cursor-pointer leading-5">Security</div>
                </div>
-               <div className="hidden flex-none lg:flex items-center gap-[30px] text-lg LexendFontRegular">
-                  <div className="leading-7 cursor-pointer transition-all duration-300 hover:-translate-y-1">Sign Up</div>
-                  <div className="leading-7 cursor-pointer w-[109px] text-center py-[14px] bg-green-60 hover:bg-[#22251B] hover:text-green-60 transition-all duration-300 text-grey-11 rounded-full">Login</div>
+               <div className="hidden flex-none lg:flex items-center text-lg LexendFontRegular relative text-white">
+                  <div onMouseOver={() => setLoginBtn(false)} className={loginBtn? loginSignUpBtnClass: loginSignUpBtnClassActive}>Sign Up</div>
+                  <div onMouseOver={() => setLoginBtn(true)} className={loginBtn? loginSignUpBtnClassActive: loginSignUpBtnClass}>Login</div>
+                  <div className={loginBtn ? bgLoginActive : bgSignUpActive}></div>
                </div>
                <div className="flex lg:hidden px-[14px] py-[6px] rounded-full bg-green-60 cursor-pointer hover:bg-[#22251B] hover:text-green-60 transition-all duration-300 text-grey-11">
                   <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">

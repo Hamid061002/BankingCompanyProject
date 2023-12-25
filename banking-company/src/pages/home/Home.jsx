@@ -17,7 +17,6 @@ function Home() {
                <Footer />
             </div>
          </div>
-         <div className="fixed top-40 right-[45%] w-96 h-96 flex text-5xl justify-center items-center bg-white">انجام میدم</div>
       </section>
    )
 }
