@@ -46,6 +46,7 @@
 .bgHeader {
     background-image: url(../../../public/images/Abstract\ Design.svg);
     background-size: 50%;
+    /* box-shadow: 0 0 10px 10px black inset; */
 }
 
 .bgYourTransactionsParrent {

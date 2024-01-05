@@ -1,6 +1,7 @@
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
 import OurProducts from "../../components/our products/OurProducts";
+import OurTestimonials from "../../components/our testimonials/OurTestimonials";
 import UseCases from "../../components/use cases/UseCases";
 import Welcome from "../../components/welcome/Welcome";
 
@@ -14,6 +15,7 @@ function Home() {
                <Welcome />
                <OurProducts />
                <UseCases />
+               <OurTestimonials />
                <Footer />
             </div>
          </div>

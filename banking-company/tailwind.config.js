@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        'dark-green': '#22251B',
         'green-60': '#CAFF33',
         'green-65': '#D1FF4C',
         'green-70': '#D8FF66',
@@ -30,9 +31,11 @@ export default {
         'grey-70': '#B3B3B3',
         'grey-75': '#BFBFBF',
       },
-      boxShadow:{
-        'headerShadow': '0 0 35px 15px #191919' 
-      }
+      boxShadow: {
+        'headerShadow': '0 0 35px 15px #191919',
+        'useCaseItemShadow': '0 0 40px 20px #191919',
+        'shadowCardTestimonials': '0 0 600px 280px #191919;' 
+      },
     },
   },
   plugins: [],

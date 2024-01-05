@@ -1,3 +1,4 @@
+import './UseCases.css'
 function UseCases() {
    return (
       <section className="flex flex-col gap-[60px] px-4 lg:px-20">
@@ -9,7 +10,7 @@ function UseCases() {
          </div>
          <div className="flex flex-col gap-10">
             <div className="flex max-lg:flex-col gap-[30px] lg:gap-[60px]">
-               <div className="basis-1/2 grid grid-cols-2 gap-[10px] p-5 lg:p-10 bg-grey-11 rounded-[20px] useCaseBgStyleLeft bg-no-repeat">
+               <div className="animateUseCases1 basis-1/2 grid grid-cols-2 gap-[10px] p-5 lg:p-10 bg-grey-11 rounded-[20px] useCaseBgStyleLeft bg-no-repeat">
                   <div className="flex flex-col items-center gap-[14px] rounded-xl p-5 lg:p-6 bg-grey-10 border border-grey-15">
                      <div className="useCaseIconsStyle p-2 w-fit">
                         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -111,7 +112,7 @@ function UseCases() {
                      <div className="text-base text-white LexendFontRegular leading-[1.5] text-center">Education Funding</div>
                   </div>
                </div>
-               <div className="basis-1/2 flex flex-col max-lg:items-center gap-[50px]">
+               <div className="animateUseCases2 basis-1/2 flex flex-col max-lg:items-center gap-[50px] backdrop-blur-[1px] bg-grey-10 bg-opacity-80 shadow-useCaseItemShadow rounded-3xl">
                   <div className="flex flex-col gap-[10px]">
                      <div className="text-xl lg:text-[26px] text-white LexendFontRegular leading-[150%] max-lg:text-center">For Individuals</div>
                      <div className="text-base text-grey-70 leading-[150%] max-lg:text-center">
@@ -120,7 +121,7 @@ function UseCases() {
                   </div>
                   <div className="flex flex-col lg:flex-row gap-[30px] lg:gap-[50px]">
                      <div className="flex flex-col gap-[5px]">
-                        <div className="text-[40px] text-green-60 leading-[1.5] LexendFontRegular max-lg:text-center">78%</div>
+                        <div className="text-[40px] text-green-60 leading-[1.5] LexendFontRegular max-lg:text-center percentUseCase">78%</div>
                         <div className="text-[15px] text-grey-70 leading-[1.5] max-lg:text-center">Secure Retirement Planning</div>
                      </div>
                      {/* line between */}
@@ -133,7 +134,7 @@ function UseCases() {
                         </svg>
                      </div>
                      <div className="flex flex-col gap-[5px]">
-                        <div className="text-[40px] text-green-60 leading-[1.5] LexendFontRegular max-lg:text-center">63%</div>
+                        <div className="text-[40px] text-green-60 leading-[1.5] LexendFontRegular max-lg:text-center percentUseCase">63%</div>
                         <div className="text-[15px] text-grey-70 leading-[1.5] max-lg:text-center">Manageable Debt Consolidation</div>
                      </div>
                      {/* line between */}
@@ -146,7 +147,7 @@ function UseCases() {
                         </svg>
                      </div>
                      <div className="flex flex-col gap-[5px]">
-                        <div className="text-[40px] text-green-60 leading-[1.5] LexendFontRegular max-lg:text-center">91%</div>
+                        <div className="text-[40px] text-green-60 leading-[1.5] LexendFontRegular max-lg:text-center percentUseCase">91%</div>
                         <div className="text-[15px] text-grey-70 leading-[1.5] max-lg:text-center">Reducing financial burdens</div>
                      </div>
                   </div>
@@ -154,7 +155,7 @@ function UseCases() {
                </div>
             </div>
             <div className="flex flex-row-reverse max-lg:flex-col gap-[30px] lg:gap-[60px]">
-               <div className="basis-1/2 grid grid-cols-2 gap-[10px] p-5 lg:p-10 bg-grey-11 rounded-[20px] useCaseBgStyleRight bg-no-repeat bg-right-top">
+               <div className="animateUseCases3 basis-1/2 grid grid-cols-2 gap-[10px] p-5 lg:p-10 bg-grey-11 rounded-[20px] useCaseBgStyleRight bg-no-repeat bg-right-top">
                   <div className="flex flex-col items-center gap-[14px] rounded-xl p-5 lg:p-6 bg-grey-10 border border-grey-15">
                      <div className="useCaseIconsStyle p-2 w-fit">
                         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -241,7 +242,7 @@ function UseCases() {
                      <div className="text-base text-white LexendFontRegular leading-[1.5] text-center">Payment Solutions</div>
                   </div>
                </div>
-               <div className="basis-1/2 flex flex-col max-lg:items-center gap-[50px]">
+               <div className="animateUseCases4 basis-1/2 flex flex-col max-lg:items-center gap-[50px] backdrop-blur-[1px] bg-grey-10 bg-opacity-90 shadow-useCaseItemShadow rounded-3xl">
                   <div className="flex flex-col gap-[10px]">
                      <div className="text-xl lg:text-[26px] text-white LexendFontRegular leading-[150%] max-lg:text-center">For Business</div>
                      <div className="text-base text-grey-70 leading-[150%] max-lg:text-center">
@@ -250,7 +251,7 @@ function UseCases() {
                   </div>
                   <div className="flex flex-col lg:flex-row gap-[30px] lg:gap-[50px]">
                      <div className="flex flex-col gap-[5px]">
-                        <div className="text-[40px] text-green-60 leading-[1.5] LexendFontRegular max-lg:text-center">65%</div>
+                        <div className="text-[40px] text-green-60 leading-[1.5] LexendFontRegular max-lg:text-center percentUseCase">65%</div>
                         <div className="text-[15px] text-grey-70 leading-[1.5] max-lg:text-center">Cash Flow Management</div>
                      </div>
                      {/* line between */}
@@ -263,7 +264,7 @@ function UseCases() {
                         </svg>
                      </div>
                      <div className="flex flex-col gap-[5px]">
-                        <div className="text-[40px] text-green-60 leading-[1.5] LexendFontRegular max-lg:text-center">70%</div>
+                        <div className="text-[40px] text-green-60 leading-[1.5] LexendFontRegular max-lg:text-center percentUseCase">70%</div>
                         <div className="text-[15px] text-grey-70 leading-[1.5] max-lg:text-center">Drive Business Expansion</div>
                      </div>
                      {/* line between */}
@@ -276,7 +277,7 @@ function UseCases() {
                         </svg>
                      </div>
                      <div className="flex flex-col gap-[5px]">
-                        <div className="text-[40px] text-green-60 leading-[1.5] LexendFontRegular max-lg:text-center">45%</div>
+                        <div className="text-[40px] text-green-60 leading-[1.5] LexendFontRegular max-lg:text-center percentUseCase">45%</div>
                         <div className="text-[15px] text-grey-70 leading-[1.5] max-lg:text-center">Streamline payroll processing</div>
                      </div>
                   </div>

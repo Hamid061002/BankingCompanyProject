@@ -2,7 +2,7 @@ import { useState } from 'react'
 import logo from '../../../public/images/logos/YourBank.svg'
 import logoText from '../../../public/images/logos/YourBankText.svg'
 function Header() {
-   let loginSignUpBtnClass = 'leading-7 py-[15px] px-[30px] rounded-full cursor-pointer z-10 transition-all duration-300 active:bg-[#22251B] active:text-green-60'
+   let loginSignUpBtnClass = 'leading-7 py-[15px] px-[30px] rounded-full cursor-pointer z-10 transition-all duration-300 active:bg-dark-green active:text-green-60'
    let loginSignUpBtnClassActive = `${loginSignUpBtnClass} text-grey-11`
    let bgLoginSignUp = 'absolute right-[0.4px] bg-green-60 rounded-full h-[56px] transition-all duration-300'
    let bgLoginActive = `${bgLoginSignUp} w-[108px]`

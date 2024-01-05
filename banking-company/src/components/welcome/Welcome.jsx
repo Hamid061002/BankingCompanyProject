@@ -1,3 +1,4 @@
+import './Welcome.css'
 import india from '../../../public/images/india.svg'
 import usa from '../../../public/images/usa.svg'
 import arrows from '../../../public/images/Arrows.svg'
@@ -15,7 +16,7 @@ function Welcome() {
                   <div className="leading-6">No LLC Required, No Credit Check.</div>
                </div>
                <div className="mt-4 max-lg:text-center">
-                  <p className="text-[28px] lg:text-[38px] LexendFontRegular leading-[42px] lg:leading-[57px] text-white">
+                  <p className="spanAnimate text-[28px] lg:text-[38px] LexendFontRegular leading-[42px] lg:leading-[57px] text-white">
                      Welcome to YourBank Empowering Your
                      <span className="text-green-60"> Financial</span> <span className="text-green-60">Journey</span>
                   </p>
@@ -23,7 +24,7 @@ function Welcome() {
                      At YourBank, our mission is to provide comprehensive banking solutions that empower individuals and businesses to achieve their financial goals. We are committed to delivering personalized and innovative services that prioritize our customers' needs.
                   </p>
                </div>
-               <div className="text-sm text-grey-11 bg-green-60 leading-[21px] LexendFontMedium py-[14px] w-36 text-center mt-10 rounded-full cursor-pointer  lg:hover:translate-x-1 hover:-translate-y-1 transition-all duration-300">Open Account</div>
+               <div className="text-sm text-grey-11 bg-green-60 leading-[21px] LexendFontMedium py-[14px] w-36 text-center mt-10 rounded-full cursor-pointer  lg:hover:translate-x-1 hover:-translate-y-1 active:bg-dark-green active:text-green-60 transition-all duration-300">Open Account</div>
             </div>
             <div className="bgYourTransactionsParrent h-fit flex justify-center items-center p-[0.689px]">
                <div className="flex flex-col gap-7 w-full p-5 lg:p-[27.55px] bg-grey-10 relative bgYourTransactionsChild">
@@ -124,7 +125,7 @@ function Welcome() {
                      <div className="bg-[#22251B] text-green-60 LexendFontRegular text-[9px] lg:text-xs text-center py-2 lg:py-3 mt-1 rounded-full cursor-pointer w-full mx-auto hover:w-4/5 hover:text-grey-10 hover:bg-green-60 transition-all duration-300">Exchange</div>
                   </div>
                   {/* Arrows */}
-                  <div className="absolute -right-12 -top-5 lg:-right-24 lg:-top-2 -z-10">
+                  <div className="arrows absolute -right-12 -top-5 lg:-right-24 lg:-top-2 -z-10">
                      <img src={arrows} alt="" />
                   </div>
                   {/* Supported Currency */}
