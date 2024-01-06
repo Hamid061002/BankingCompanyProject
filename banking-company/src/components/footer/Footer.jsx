@@ -43,39 +43,39 @@ function Footer() {
                </div>
             </div>
             <div className="flex gap-[26px] LexendFontLight text-sm lg:text-lg text-white">
-               <div className="py-[10px] rounded-full hover:opacity-70 transition-all duration-300 cursor-pointer leading-5 lg:leading-7">Home</div>
-               <div className="py-[10px] rounded-full hover:opacity-70 transition-all duration-300 cursor-pointer leading-5 lg:leading-7">Careers</div>
-               <div className="py-[10px] rounded-full hover:opacity-70 transition-all duration-300 cursor-pointer leading-5 lg:leading-7">About</div>
-               <div className="py-[10px] rounded-full hover:opacity-70 transition-all duration-300 cursor-pointer leading-5 lg:leading-7">Security</div>
+               <div className="py-[10px] rounded-full transition-all duration-300 cursor-pointer leading-5 lg:leading-7 hover:px-4 hover:bg-grey-15">Home</div>
+               <div className="py-[10px] rounded-full transition-all duration-300 cursor-pointer leading-5 lg:leading-7 hover:px-4 hover:bg-grey-15">Careers</div>
+               <div className="py-[10px] rounded-full transition-all duration-300 cursor-pointer leading-5 lg:leading-7 hover:px-4 hover:bg-grey-15">About</div>
+               <div className="py-[10px] rounded-full transition-all duration-300 cursor-pointer leading-5 lg:leading-7 hover:px-4 hover:bg-grey-15">Security</div>
             </div>
          </div>
          {/* line between */}
          <div className="w-full h-[1px] bg-grey-15"></div>
          <div className="flex flex-wrap justify-center lg: gap-5">
-            <div className="flex items-center gap-[6px] text-white text-sm lg:text-lg LexendFontLight cursor-pointer transition-all duration-200 hover:opacity-70 active:scale-[0.97]">
-               <div>
+            <div className="flex items-center gap-[6px] text-white text-sm lg:text-lg LexendFontLight cursor-pointer transition-all duration-700 hover:bg-green-60 hover:ps-4 hover:pe-[10px] rounded-2xl group">
+               <div className="text-green-60 group-hover:text-dark-green transition-all duration-700 group-hover:translate-x-[190px]">
                   <svg className="max-lg:w-5" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                     <path d="M1.5 9.1691V17.75C1.5 19.4069 2.84315 20.75 4.5 20.75H19.5C21.1569 20.75 22.5 19.4069 22.5 17.75V9.1691L13.5723 14.6631C12.6081 15.2564 11.3919 15.2564 10.4277 14.6631L1.5 9.1691Z" fill="#CAFF33" />
-                     <path d="M22.5 7.40783V7.25C22.5 5.59315 21.1569 4.25 19.5 4.25H4.5C2.84315 4.25 1.5 5.59315 1.5 7.25V7.40783L11.2139 13.3856C11.696 13.6823 12.304 13.6823 12.7861 13.3856L22.5 7.40783Z" fill="#CAFF33" />
+                     <path d="M1.5 9.1691V17.75C1.5 19.4069 2.84315 20.75 4.5 20.75H19.5C21.1569 20.75 22.5 19.4069 22.5 17.75V9.1691L13.5723 14.6631C12.6081 15.2564 11.3919 15.2564 10.4277 14.6631L1.5 9.1691Z" fill="currentColor" />
+                     <path d="M22.5 7.40783V7.25C22.5 5.59315 21.1569 4.25 19.5 4.25H4.5C2.84315 4.25 1.5 5.59315 1.5 7.25V7.40783L11.2139 13.3856C11.696 13.6823 12.304 13.6823 12.7861 13.3856L22.5 7.40783Z" fill="currentColor" />
                   </svg>
                </div>
-               <div className="leading-5 lg:leading-7">hello@skillbirdge.com</div>
+               <div className="leading-5 lg:leading-7 transition-all duration-700 group-hover:text-dark-green group-hover:-translate-x-[30px]">hello@skillbirdge.com</div>
             </div>
-            <div className="flex items-center gap-[6px] text-white text-sm lg:text-lg LexendFontLight cursor-pointer transition-all duration-200 hover:opacity-70 active:scale-[0.97]">
-               <div>
+            <div className="flex items-center gap-[6px] text-white text-sm lg:text-lg LexendFontLight cursor-pointer transition-all duration-700 hover:bg-green-60 hover:ps-4 hover:pe-3 rounded-2xl group">
+               <div className="text-green-60 group-hover:text-dark-green transition-all duration-700 group-hover:translate-x-[155px]">
                   <svg className="max-lg:w-5" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                     <path fill-rule="evenodd" clip-rule="evenodd" d="M1.5 5C1.5 3.34315 2.84315 2 4.5 2H5.87163C6.732 2 7.48197 2.58556 7.69064 3.42025L8.79644 7.84343C8.97941 8.5753 8.70594 9.34555 8.10242 9.79818L6.8088 10.7684C6.67447 10.8691 6.64527 11.0167 6.683 11.1197C7.81851 14.2195 10.2805 16.6815 13.3803 17.817C13.4833 17.8547 13.6309 17.8255 13.7316 17.6912L14.7018 16.3976C15.1545 15.7941 15.9247 15.5206 16.6566 15.7036L21.0798 16.8094C21.9144 17.018 22.5 17.768 22.5 18.6284V20C22.5 21.6569 21.1569 23 19.5 23H17.25C8.55151 23 1.5 15.9485 1.5 7.25V5Z" fill="#CAFF33" />
+                     <path fill-rule="evenodd" clip-rule="evenodd" d="M1.5 5C1.5 3.34315 2.84315 2 4.5 2H5.87163C6.732 2 7.48197 2.58556 7.69064 3.42025L8.79644 7.84343C8.97941 8.5753 8.70594 9.34555 8.10242 9.79818L6.8088 10.7684C6.67447 10.8691 6.64527 11.0167 6.683 11.1197C7.81851 14.2195 10.2805 16.6815 13.3803 17.817C13.4833 17.8547 13.6309 17.8255 13.7316 17.6912L14.7018 16.3976C15.1545 15.7941 15.9247 15.5206 16.6566 15.7036L21.0798 16.8094C21.9144 17.018 22.5 17.768 22.5 18.6284V20C22.5 21.6569 21.1569 23 19.5 23H17.25C8.55151 23 1.5 15.9485 1.5 7.25V5Z" fill="currentColor" />
                   </svg>
                </div>
-               <div className="leading-5 lg:leading-7">+91 91813 23 2309</div>
+               <div className="leading-5 lg:leading-7 transition-all duration-700 group-hover:text-dark-green group-hover:-translate-x-[30px]">+91 91813 23 2309</div>
             </div>
-            <div className="flex items-center gap-[6px] text-white text-sm lg:text-lg LexendFontLight cursor-pointer transition-all duration-200 hover:opacity-70 active:scale-[0.97]">
-               <div>
+            <div className="flex items-center gap-[6px] text-white text-sm lg:text-lg LexendFontLight cursor-pointer transition-all duration-700 hover:bg-green-60 hover:ps-4 hover:pe-2 rounded-2xl group">
+               <div className="text-green-60 group-hover:text-dark-green transition-all duration-700 group-hover:translate-x-[210px]">
                   <svg className="max-lg:w-5" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                     <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5397 22.851C11.57 22.8685 11.5937 22.8821 11.6105 22.8915L11.6384 22.9071C11.8613 23.0294 12.1378 23.0285 12.3608 22.9075L12.3895 22.8915C12.4063 22.8821 12.43 22.8685 12.4603 22.851C12.5207 22.816 12.607 22.765 12.7155 22.6982C12.9325 22.5646 13.2388 22.3676 13.6046 22.1091C14.3351 21.5931 15.3097 20.8274 16.2865 19.8273C18.2307 17.8368 20.25 14.8462 20.25 11C20.25 6.44365 16.5563 2.75 12 2.75C7.44365 2.75 3.75 6.44365 3.75 11C3.75 14.8462 5.76932 17.8368 7.71346 19.8273C8.69025 20.8274 9.66491 21.5931 10.3954 22.1091C10.7612 22.3676 11.0675 22.5646 11.2845 22.6982C11.393 22.765 11.4793 22.816 11.5397 22.851ZM12 14C13.6569 14 15 12.6569 15 11C15 9.34315 13.6569 8 12 8C10.3431 8 9 9.34315 9 11C9 12.6569 10.3431 14 12 14Z" fill="#CAFF33" />
+                     <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5397 22.851C11.57 22.8685 11.5937 22.8821 11.6105 22.8915L11.6384 22.9071C11.8613 23.0294 12.1378 23.0285 12.3608 22.9075L12.3895 22.8915C12.4063 22.8821 12.43 22.8685 12.4603 22.851C12.5207 22.816 12.607 22.765 12.7155 22.6982C12.9325 22.5646 13.2388 22.3676 13.6046 22.1091C14.3351 21.5931 15.3097 20.8274 16.2865 19.8273C18.2307 17.8368 20.25 14.8462 20.25 11C20.25 6.44365 16.5563 2.75 12 2.75C7.44365 2.75 3.75 6.44365 3.75 11C3.75 14.8462 5.76932 17.8368 7.71346 19.8273C8.69025 20.8274 9.66491 21.5931 10.3954 22.1091C10.7612 22.3676 11.0675 22.5646 11.2845 22.6982C11.393 22.765 11.4793 22.816 11.5397 22.851ZM12 14C13.6569 14 15 12.6569 15 11C15 9.34315 13.6569 8 12 8C10.3431 8 9 9.34315 9 11C9 12.6569 10.3431 14 12 14Z" fill="currentColor" />
                   </svg>
                </div>
-               <div className="leading-5 lg:leading-7">Somewhere in the World</div>
+               <div className="leading-5 lg:leading-7 transition-all duration-700 group-hover:text-dark-green group-hover:-translate-x-[30px]">Somewhere in the World</div>
             </div>
          </div>
          {/* line between */}
@@ -83,7 +83,7 @@ function Footer() {
          <div className="flex flex-col lg:flex-row max-lg:gap-5 items-center justify-between w-full p-4 rounded-xl lg:rounded-full bg-grey-10 border border-grey-15 max-lg:pt-[50px] max-lg:relative">
             <div className="flex gap-[14px] max-lg:absolute -top-6">
                <div>
-                  <svg className="cursor-pointer hover:opacity-70 transition-all duration-300 max-lg:w-11" width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="cursor-pointer hover:opacity-70 hover:rotate-[360deg] transition-all duration-700 max-lg:w-11" width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <rect width="52" height="52" rx="26" fill="#CAFF33" />
                      <g clip-path="url(#clip0_11_89142)">
                         <path d="M38 26C38 19.3726 32.6274 14 26 14C19.3726 14 14 19.3726 14 26C14 31.9895 18.3882 36.954 24.125 37.8542V29.4687H21.0781V26H24.125V23.3562C24.125 20.3488 25.9166 18.6875 28.6576 18.6875C29.9701 18.6875 31.3438 18.9219 31.3438 18.9219V21.875H29.8306C28.34 21.875 27.875 22.8001 27.875 23.75V26H31.2031L30.6711 29.4687H27.875V37.8542C33.6118 36.954 38 31.9895 38 26Z" fill="#262626" />
@@ -96,13 +96,13 @@ function Footer() {
                   </svg>
                </div>
                <div>
-                  <svg className="cursor-pointer hover:opacity-70 transition-all duration-300 max-lg:w-11" width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="cursor-pointer hover:opacity-70 hover:rotate-[360deg] transition-all duration-700 max-lg:w-11" width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <rect width="52" height="52" rx="26" fill="#CAFF33" />
                      <path d="M21.5502 35.7497C30.6045 35.7497 35.5583 28.2465 35.5583 21.7416C35.5583 21.5307 35.5536 21.3151 35.5442 21.1041C36.5079 20.4072 37.3395 19.544 38 18.5551C37.1025 18.9544 36.1496 19.2151 35.1739 19.3285C36.2013 18.7127 36.9705 17.7452 37.3391 16.6055C36.3726 17.1783 35.3156 17.5824 34.2134 17.8004C33.4708 17.0113 32.489 16.4889 31.4197 16.3138C30.3504 16.1387 29.2532 16.3208 28.2977 16.8319C27.3423 17.3429 26.5818 18.1545 26.1338 19.1411C25.6859 20.1277 25.5754 21.2344 25.8195 22.2901C23.8625 22.1918 21.9479 21.6835 20.2 20.7979C18.452 19.9122 16.9097 18.6692 15.673 17.1493C15.0444 18.233 14.8521 19.5154 15.135 20.7358C15.418 21.9563 16.1551 23.0232 17.1964 23.7197C16.4146 23.6949 15.65 23.4844 14.9656 23.1057V23.1666C14.9649 24.3039 15.3581 25.4063 16.0783 26.2865C16.7985 27.1667 17.8013 27.7703 18.9162 27.9947C18.1921 28.1929 17.432 28.2218 16.6948 28.0791C17.0095 29.0572 17.6216 29.9126 18.4458 30.5261C19.27 31.1395 20.2651 31.4804 21.2923 31.501C19.5484 32.8709 17.3942 33.6139 15.1766 33.6104C14.7833 33.6098 14.3904 33.5857 14 33.5382C16.2529 34.9835 18.8735 35.7511 21.5502 35.7497Z" fill="#262626" />
                   </svg>
                </div>
                <div>
-                  <svg className="cursor-pointer hover:opacity-70 transition-all duration-300 max-lg:w-11" width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="cursor-pointer hover:opacity-70 hover:rotate-[360deg] transition-all duration-700 max-lg:w-11" width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <rect width="52" height="52" rx="26" fill="#CAFF33" />
                      <g clip-path="url(#clip0_11_89148)">
                         <path d="M36.2234 14H15.7719C14.7922 14 14 14.7734 14 15.7297V36.2656C14 37.2219 14.7922 38 15.7719 38H36.2234C37.2031 38 38 37.2219 38 36.2703V15.7297C38 14.7734 37.2031 14 36.2234 14ZM21.1203 34.4516H17.5578V22.9953H21.1203V34.4516ZM19.3391 21.4344C18.1953 21.4344 17.2719 20.5109 17.2719 19.3719C17.2719 18.2328 18.1953 17.3094 19.3391 17.3094C20.4781 17.3094 21.4016 18.2328 21.4016 19.3719C21.4016 20.5062 20.4781 21.4344 19.3391 21.4344ZM34.4516 34.4516H30.8937V28.8828C30.8937 27.5562 30.8703 25.8453 29.0422 25.8453C27.1906 25.8453 26.9094 27.2937 26.9094 28.7891V34.4516H23.3563V22.9953H26.7687V24.5609H26.8156C27.2891 23.6609 28.4516 22.7094 30.1813 22.7094C33.7859 22.7094 34.4516 25.0813 34.4516 28.1656V34.4516Z" fill="#262626" />

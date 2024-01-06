@@ -18,7 +18,7 @@ function OurProducts() {
          </div>
          <div className="flex flex-col lg:flex-row gap-[30px] lg:gap-10">
             {/* a item */}
-            <div className="itemOurProducts basis-1/3 flex flex-col items-center">
+            <div className="itemOurProducts h-[300px] basis-1/3 flex flex-col items-center">
                <div className="ourProductsIconStyle p-2 w-fit">
                   <svg width="57" height="56" viewBox="0 0 57 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <rect x="0.666504" width="56" height="56" rx="28" fill="url(#paint0_linear_104_2418)" fill-opacity="0.1" />
@@ -44,7 +44,7 @@ function OurProducts() {
             {/* line between */}
             <div className="w-full lg:w-[1px] h-[1px] lg:h-262px bg-grey-15"></div>
             {/* a item */}
-            <div className="itemOurProducts basis-1/3 flex flex-col items-center">
+            <div className="itemOurProducts h-[300px] basis-1/3 flex flex-col items-center">
                <div className="ourProductsIconStyle p-2 w-fit">
                   <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <rect width="56" height="56" rx="28" fill="url(#paint0_linear_104_2430)" fill-opacity="0.1" />
@@ -71,7 +71,7 @@ function OurProducts() {
             {/* line between */}
             <div className="w-full lg:w-[1px] h-[1px] lg:h-262px bg-grey-15"></div>
             {/* a item */}
-            <div className="itemOurProducts basis-1/3 flex flex-col items-center">
+            <div className="itemOurProducts h-[300px] basis-1/3 flex flex-col items-center">
                <div className="ourProductsIconStyle p-2 w-fit">
                   <svg width="57" height="56" viewBox="0 0 57 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <rect x="0.333008" width="56" height="56" rx="28" fill="url(#paint0_linear_104_2439)" fill-opacity="0.1" />

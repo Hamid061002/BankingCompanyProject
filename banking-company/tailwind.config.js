@@ -34,7 +34,8 @@ export default {
       boxShadow: {
         'headerShadow': '0 0 35px 15px #191919',
         'useCaseItemShadow': '0 0 40px 20px #191919',
-        'shadowCardTestimonials': '0 0 600px 280px #191919;' 
+        'shadowCardTestimonials': '0 0 600px 280px #191919;', 
+        'shadowCardTestimonialsLg': '200px 0px 100px -140px #191919 inset,-200px 0px 100px -140px #191919 inset', 
       },
     },
   },
