@@ -83,7 +83,7 @@ function Footer() {
          <div className="flex flex-col lg:flex-row max-lg:gap-5 items-center justify-between w-full p-4 rounded-xl lg:rounded-full bg-grey-10 border border-grey-15 max-lg:pt-[50px] max-lg:relative">
             <div className="flex gap-[14px] max-lg:absolute -top-6">
                <div>
-                  <svg className="cursor-pointer hover:opacity-70 hover:rotate-[360deg] transition-all duration-700 max-lg:w-11" width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="cursor-pointer hover:rotate-[360deg] transition-all duration-700 max-lg:w-11" width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <rect width="52" height="52" rx="26" fill="#CAFF33" />
                      <g clip-path="url(#clip0_11_89142)">
                         <path d="M38 26C38 19.3726 32.6274 14 26 14C19.3726 14 14 19.3726 14 26C14 31.9895 18.3882 36.954 24.125 37.8542V29.4687H21.0781V26H24.125V23.3562C24.125 20.3488 25.9166 18.6875 28.6576 18.6875C29.9701 18.6875 31.3438 18.9219 31.3438 18.9219V21.875H29.8306C28.34 21.875 27.875 22.8001 27.875 23.75V26H31.2031L30.6711 29.4687H27.875V37.8542C33.6118 36.954 38 31.9895 38 26Z" fill="#262626" />
@@ -96,13 +96,13 @@ function Footer() {
                   </svg>
                </div>
                <div>
-                  <svg className="cursor-pointer hover:opacity-70 hover:rotate-[360deg] transition-all duration-700 max-lg:w-11" width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="cursor-pointer hover:rotate-[360deg] transition-all duration-700 max-lg:w-11" width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <rect width="52" height="52" rx="26" fill="#CAFF33" />
                      <path d="M21.5502 35.7497C30.6045 35.7497 35.5583 28.2465 35.5583 21.7416C35.5583 21.5307 35.5536 21.3151 35.5442 21.1041C36.5079 20.4072 37.3395 19.544 38 18.5551C37.1025 18.9544 36.1496 19.2151 35.1739 19.3285C36.2013 18.7127 36.9705 17.7452 37.3391 16.6055C36.3726 17.1783 35.3156 17.5824 34.2134 17.8004C33.4708 17.0113 32.489 16.4889 31.4197 16.3138C30.3504 16.1387 29.2532 16.3208 28.2977 16.8319C27.3423 17.3429 26.5818 18.1545 26.1338 19.1411C25.6859 20.1277 25.5754 21.2344 25.8195 22.2901C23.8625 22.1918 21.9479 21.6835 20.2 20.7979C18.452 19.9122 16.9097 18.6692 15.673 17.1493C15.0444 18.233 14.8521 19.5154 15.135 20.7358C15.418 21.9563 16.1551 23.0232 17.1964 23.7197C16.4146 23.6949 15.65 23.4844 14.9656 23.1057V23.1666C14.9649 24.3039 15.3581 25.4063 16.0783 26.2865C16.7985 27.1667 17.8013 27.7703 18.9162 27.9947C18.1921 28.1929 17.432 28.2218 16.6948 28.0791C17.0095 29.0572 17.6216 29.9126 18.4458 30.5261C19.27 31.1395 20.2651 31.4804 21.2923 31.501C19.5484 32.8709 17.3942 33.6139 15.1766 33.6104C14.7833 33.6098 14.3904 33.5857 14 33.5382C16.2529 34.9835 18.8735 35.7511 21.5502 35.7497Z" fill="#262626" />
                   </svg>
                </div>
                <div>
-                  <svg className="cursor-pointer hover:opacity-70 hover:rotate-[360deg] transition-all duration-700 max-lg:w-11" width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="cursor-pointer hover:rotate-[360deg] transition-all duration-700 max-lg:w-11" width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <rect width="52" height="52" rx="26" fill="#CAFF33" />
                      <g clip-path="url(#clip0_11_89148)">
                         <path d="M36.2234 14H15.7719C14.7922 14 14 14.7734 14 15.7297V36.2656C14 37.2219 14.7922 38 15.7719 38H36.2234C37.2031 38 38 37.2219 38 36.2703V15.7297C38 14.7734 37.2031 14 36.2234 14ZM21.1203 34.4516H17.5578V22.9953H21.1203V34.4516ZM19.3391 21.4344C18.1953 21.4344 17.2719 20.5109 17.2719 19.3719C17.2719 18.2328 18.1953 17.3094 19.3391 17.3094C20.4781 17.3094 21.4016 18.2328 21.4016 19.3719C21.4016 20.5062 20.4781 21.4344 19.3391 21.4344ZM34.4516 34.4516H30.8937V28.8828C30.8937 27.5562 30.8703 25.8453 29.0422 25.8453C27.1906 25.8453 26.9094 27.2937 26.9094 28.7891V34.4516H23.3563V22.9953H26.7687V24.5609H26.8156C27.2891 23.6609 28.4516 22.7094 30.1813 22.7094C33.7859 22.7094 34.4516 25.0813 34.4516 28.1656V34.4516Z" fill="#262626" />

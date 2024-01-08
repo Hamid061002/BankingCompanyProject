@@ -121,7 +121,7 @@ function UseCases() {
                   </div>
                   <div className="flex flex-col lg:flex-row gap-[30px] lg:gap-[50px]">
                      <div className="flex flex-col gap-[5px]">
-                        <div className="text-[40px] text-green-60 leading-[1.5] LexendFontRegular max-lg:text-center flex"><div className='percentUseCase1'>78</div>%</div>
+                        <div className="text-[40px] text-green-60 leading-[1.5] LexendFontRegular max-lg:justify-center flex"><div className='percentUseCase1'>78</div>%</div>
                         <div className="text-[15px] text-grey-70 leading-[1.5] max-lg:text-center">Secure Retirement Planning</div>
                      </div>
                      {/* line between */}
@@ -134,7 +134,7 @@ function UseCases() {
                         </svg>
                      </div>
                      <div className="flex flex-col gap-[5px]">
-                        <div className="text-[40px] text-green-60 leading-[1.5] LexendFontRegular max-lg:text-center flex"><div className='percentUseCase2'>63</div>%</div>
+                        <div className="text-[40px] text-green-60 leading-[1.5] LexendFontRegular max-lg:justify-center flex"><div className='percentUseCase2'>63</div>%</div>
                         <div className="text-[15px] text-grey-70 leading-[1.5] max-lg:text-center">Manageable Debt Consolidation</div>
                      </div>
                      {/* line between */}
@@ -147,7 +147,7 @@ function UseCases() {
                         </svg>
                      </div>
                      <div className="flex flex-col gap-[5px]">
-                        <div className="text-[40px] text-green-60 leading-[1.5] LexendFontRegular max-lg:text-center flex"><div className='percentUseCase3'>91</div>%</div>
+                        <div className="text-[40px] text-green-60 leading-[1.5] LexendFontRegular max-lg:justify-center flex"><div className='percentUseCase3'>91</div>%</div>
                         <div className="text-[15px] text-grey-70 leading-[1.5] max-lg:text-center">Reducing financial burdens</div>
                      </div>
                   </div>
@@ -251,7 +251,7 @@ function UseCases() {
                   </div>
                   <div className="flex flex-col lg:flex-row gap-[30px] lg:gap-[50px]">
                      <div className="flex flex-col gap-[5px]">
-                        <div className="text-[40px] text-green-60 leading-[1.5] LexendFontRegular max-lg:text-center flex"><div className='percentUseCase4'>65</div>%</div>
+                        <div className="text-[40px] text-green-60 leading-[1.5] LexendFontRegular max-lg:justify-center flex"><div className='percentUseCase4'>65</div>%</div>
                         <div className="text-[15px] text-grey-70 leading-[1.5] max-lg:text-center">Cash Flow Management</div>
                      </div>
                      {/* line between */}
@@ -264,7 +264,7 @@ function UseCases() {
                         </svg>
                      </div>
                      <div className="flex flex-col gap-[5px]">
-                        <div className="text-[40px] text-green-60 leading-[1.5] LexendFontRegular max-lg:text-center flex"><div className='percentUseCase5'>70</div>%</div>
+                        <div className="text-[40px] text-green-60 leading-[1.5] LexendFontRegular max-lg:justify-center flex"><div className='percentUseCase5'>70</div>%</div>
                         <div className="text-[15px] text-grey-70 leading-[1.5] max-lg:text-center">Drive Business Expansion</div>
                      </div>
                      {/* line between */}
@@ -277,7 +277,7 @@ function UseCases() {
                         </svg>
                      </div>
                      <div className="flex flex-col gap-[5px]">
-                        <div className="text-[40px] text-green-60 leading-[1.5] LexendFontRegular max-lg:text-center flex"><div className='percentUseCase6'>45</div>%</div>
+                        <div className="text-[40px] text-green-60 leading-[1.5] LexendFontRegular max-lg:justify-center flex"><div className='percentUseCase6'>45</div>%</div>
                         <div className="text-[15px] text-grey-70 leading-[1.5] max-lg:text-center">Streamline payroll processing</div>
                      </div>
                   </div>
