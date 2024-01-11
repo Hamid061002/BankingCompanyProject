@@ -31,15 +31,16 @@ function Login() {
                <form className="flex flex-col gap-6 lg:gap-[30px] items-center">
                   <div className="flex max-lg:items-center flex-col lg:flex-row gap-5 lg:gap-6 w-full">
                      {/* email */}
-                     <label className="w-full max-w-sm p-4 lg:p-5 bg-grey-10 rounded-[88px] border border-grey-15 cursor-pointer">
+                     <label className="w-full max-w-sm p-4 lg:p-5 bg-grey-10 rounded-[88px] border border-grey-15 cursor-pointer relative">
                         <input
                            name="email"
                            value={formik.values.email}
                            onChange={formik.handleChange}
                            onBlur={formik.handleBlur}
-                           className="LexendFontLight text-base text-grey-60 placeholder:text-grey-35 outline-none bg-inherit leading-normal"
+                           className="peer w-full LexendFontLight text-base text-grey-75 focus:text-green-60 placeholder:text-grey-35 focus:placeholder:text-green-60 focus:placeholder:opacity-40 placeholder:transition-all placeholder:duration-500 outline-none bg-inherit leading-normal"
                            placeholder="Enter your Email">
                         </input>
+                        <div className="w-0 h-[2px] bottom-4 bg-green-60 absolute peer-focus:w-64 transition-all duration-500 z-10"></div>
                      </label>
                      {/* password */}
                      <label className="w-full max-w-sm p-4 lg:p-5 bg-grey-10 rounded-[88px] border border-grey-15 cursor-pointer relative">
@@ -49,10 +50,11 @@ function Login() {
                            onChange={formik.handleChange}
                            onBlur={formik.handleBlur}
                            type={showPassword ? 'password' : 'text'}
-                           className="LexendFontLight text-base text-grey-60 placeholder:text-grey-35 outline-none bg-inherit leading-normal"
+                           className="peer/password LexendFontLight text-base text-grey-75 focus:text-green-60 placeholder:text-grey-35 focus:placeholder:text-green-60 focus:placeholder:opacity-40 placeholder:transition-all placeholder:duration-500 outline-none bg-inherit leading-normal"
                            placeholder="Enter your Password">
                         </input>
-                        <div onClick={() => showPasswordFuncation()} className="text-grey-35">
+                        <div className="w-0 h-[2px] bottom-4 bg-green-60 absolute peer-focus/password:w-64 transition-all duration-500 z-10"></div>
+                        <div onClick={() => showPasswordFuncation()} className="text-grey-35 peer-focus/password:text-green-60">
                            <svg className={ShowEye ? eyeClass : `${eyeClass} invisible opacity-0`} width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path fill-rule="evenodd" clip-rule="evenodd" d="M3.28033 2.21967C2.98744 1.92678 2.51256 1.92678 2.21967 2.21967C1.92678 2.51256 1.92678 2.98744 2.21967 3.28033L16.7197 17.7803C17.0126 18.0732 17.4874 18.0732 17.7803 17.7803C18.0732 17.4874 18.0732 17.0126 17.7803 16.7197L16.0352 14.9745C17.5064 13.8594 18.6595 12.3465 19.3344 10.5959C19.4814 10.2144 19.4816 9.79127 19.3347 9.40962C17.892 5.66051 14.256 3 9.99859 3C8.28207 3 6.66657 3.43249 5.2551 4.19444L3.28033 2.21967ZM7.75194 6.69128L8.84367 7.78301C9.18951 7.60223 9.58291 7.5 10.0002 7.5C11.3809 7.5 12.5002 8.61929 12.5002 10C12.5002 10.4173 12.398 10.8107 12.2172 11.1565L13.3091 12.2484C13.7454 11.6077 14.0004 10.8336 14.0004 10C14.0004 7.79086 12.2095 6 10.0004 6C9.16675 6 8.39268 6.25501 7.75194 6.69128Z" fill="currentColor" />
                               <path d="M10.7484 13.9302L13.2711 16.4529C12.2462 16.8074 11.1458 17 10.0004 17C5.74298 17 2.10698 14.3395 0.664255 10.5904C0.517392 10.2087 0.517518 9.78563 0.66461 9.40408C1.15603 8.12932 1.90108 6.98057 2.83791 6.01969L6.0702 9.25198C6.02436 9.4943 6.00037 9.74435 6.00037 10C6.00037 12.2091 7.79123 14 10.0004 14C10.256 14 10.5061 13.976 10.7484 13.9302Z" fill="currentColor" />
@@ -66,11 +68,13 @@ function Login() {
                   </div>
                   <div className="text-white max-lg:text-sm LexendFontLight underline underline-offset-2 decoration-1 leading-normal cursor-pointer">Forgot Password?</div>
                   <div className="flex flex-col items-center gap-6 w-full">
-                     <div className="max-w-[404px] w-full text-center LexendFontRegular px-6 py-3.5 bg-green-60 rounded-[63px] cursor-pointer">
-                        <div className="text-grey-15 text-sm leading-[1.5]">Login</div>
+                     <div className="max-w-[404px] w-full text-center LexendFontRegular px-6 py-3.5 bg-green-60 rounded-[63px] hover:bg-grey-11 transition-all duration-1000 cursor-pointer relative overflow-hidden group h-[52px]">
+                        <input type="submit" className="text-grey-15 group-hover:text-green-60 transition-all duration-1000 text-sm leading-[1.5] absolute inset-0 z-10 cursor-pointer" value="Login"></input>
+                        <div className="w-full h-[600px] bg-dark-green absolute -top-60 left-[500px] group-hover:-translate-x-[600px] transition-all duration-1000 rotate-45"></div>                        
                      </div>
-                     <div className="max-w-[404px] w-full text-center LexendFontRegular px-6 py-3.5 bg-grey-15 rounded-[63px] cursor-pointer border border-grey-20">
-                        <div className="text-white text-sm leading-[1.5]">Sign Up</div>
+                     <div className="max-w-[404px] w-full text-center LexendFontRegular px-6 py-3.5 bg-grey-15 rounded-[63px] cursor-pointer relative overflow-hidden group h-[52px] border border-grey-20">
+                        <input type="submit" className="text-white text-sm leading-[1.5] absolute inset-0 z-10 cursor-pointer" value="Sign Up"></input>
+                        <div className="w-full h-[600px] bg-grey-11 absolute -top-60 left-[500px] group-hover:-translate-x-[600px] transition-all duration-1000 rotate-45"></div>                        
                      </div>
                      <div className="flex flex-col items-center gap-6 w-full">
                         <div className="max-w-[404px] w-full h-[21px] justify-start items-center gap-4 inline-flex">

@@ -32,7 +32,7 @@ function Header() {
                   <div className="py-[10px] hover:px-[18px] rounded-full hover:bg-grey-15 transition-all duration-300 cursor-pointer leading-5">Security</div>
                </div>
                <div className="hidden flex-none lg:flex items-center text-lg LexendFontRegular relative text-white">
-                  <div onMouseOver={() => setLoginBtn(false)} className={loginBtn? loginSignUpBtnClass: loginSignUpBtnClassActive}>Sign Up</div>
+                  <Link to="/SignUp" onMouseOver={() => setLoginBtn(false)} className={loginBtn? loginSignUpBtnClass: loginSignUpBtnClassActive}>Sign Up</Link>
                   <Link to="/Login" onMouseOver={() => setLoginBtn(true)} className={loginBtn? loginSignUpBtnClassActive: loginSignUpBtnClass}>Login</Link>
                   <div className={loginBtn ? bgLoginActive : bgSignUpActive}></div>
                </div>
