@@ -66,14 +66,14 @@ function Login() {
                         </div>
                      </label>
                   </div>
-                  <div className="text-white max-lg:text-sm LexendFontLight underline underline-offset-2 decoration-1 leading-normal cursor-pointer">Forgot Password?</div>
+                  <div className="text-white hover:text-grey-75 transition-all duration-300 max-lg:text-sm LexendFontLight underline underline-offset-2 decoration-1 leading-normal cursor-pointer">Forgot Password?</div>
                   <div className="flex flex-col items-center gap-6 w-full">
                      <div className="max-w-[404px] w-full text-center LexendFontRegular px-6 py-3.5 bg-green-60 rounded-[63px] hover:bg-grey-11 transition-all duration-1000 cursor-pointer relative overflow-hidden group h-[52px]">
                         <input type="submit" className="text-grey-15 group-hover:text-green-60 transition-all duration-1000 text-sm leading-[1.5] absolute inset-0 z-10 cursor-pointer" value="Login"></input>
                         <div className="w-full h-[600px] bg-dark-green absolute -top-60 left-[500px] group-hover:-translate-x-[600px] transition-all duration-1000 rotate-45"></div>                        
                      </div>
                      <div className="max-w-[404px] w-full text-center LexendFontRegular px-6 py-3.5 bg-grey-15 rounded-[63px] cursor-pointer relative overflow-hidden group h-[52px] border border-grey-20">
-                        <input type="submit" className="text-white text-sm leading-[1.5] absolute inset-0 z-10 cursor-pointer" value="Sign Up"></input>
+                        <input type="submit" className="text-white hover:text-green-60 transition-all duration-1000 text-sm leading-[1.5] absolute inset-0 z-10 cursor-pointer" value="Sign Up"></input>
                         <div className="w-full h-[600px] bg-grey-11 absolute -top-60 left-[500px] group-hover:-translate-x-[600px] transition-all duration-1000 rotate-45"></div>                        
                      </div>
                      <div className="flex flex-col items-center gap-6 w-full">
