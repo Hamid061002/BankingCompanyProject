@@ -4,7 +4,10 @@
 <h3>CSS</h3>
 <br>
 <br>
-run project:
-- open terminal
-- cd .\banking-company\
-- npm run dev
+<span>run project:</span>
+<br>
+<div>- open terminal</div>
+<div>- cd .\banking-company\</div>
+<div>- npm run dev</div>
+
+
