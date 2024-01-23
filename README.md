@@ -8,6 +8,7 @@
 <br>
 <div>- open terminal</div>
 <div>- cd .\banking-company\</div>
+<div>- npm i</div>
 <div>- npm run dev</div>
 
 
