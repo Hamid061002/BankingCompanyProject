@@ -3,7 +3,6 @@
 <h3>TailwindCSS</h3>
 <h3>CSS</h3>
 <br>
-<br>
 <span>run project:</span>
 <br>
 <div>- open terminal</div>
