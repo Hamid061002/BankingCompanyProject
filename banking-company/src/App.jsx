@@ -14,8 +14,12 @@ function App() {
             <Route path="/banking-company/" element={<Home />} />
             <Route path="/banking-company/Login" element={<LoginPage />} />
             <Route path="/banking-company/SignUp" element={<SignUpPage />} />
+<<<<<<< HEAD
             <Route path="/banking-company/About" element={<About />} />
          </Routes>         
+=======
+         </Routes>
+>>>>>>> f9c997372d540f5b044d2310393a36e99398f0d6
       </div>
    )
 }
