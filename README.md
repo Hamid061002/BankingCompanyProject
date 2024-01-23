@@ -9,6 +9,6 @@
 <div>- cd .\banking-company\</div>
 <div>- npm i</div>
 <div>- npm run dev</div>
+<br>
+![Uploading Screenshot 2023-12-17 202802.png…]()
 
-
-file:///H:/Download%20H/chert/YourBanK-Project3.mp4
