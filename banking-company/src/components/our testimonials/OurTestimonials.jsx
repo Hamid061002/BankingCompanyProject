@@ -41,7 +41,7 @@ function OurTestimonials() {
                className="flex items-start justify-center flex-row max-lg:p-5 max-lg:rounded-xl max-lg:border max-lg:border-grey-15 max-lg:overflow-x-hidden gap-[60px] max-lg:max-w-[358px] relative overflow-hidden"
                >
                {/* a card */}
-               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] hover:px-2 hover:shadow-shadowCardTestimonialsLg hover:h-[120%] hover:outline outline-1 outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
+               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] hover:px-2 hover:shadow-shadowCardTestimonialsLg hover:h-[120%] hover:outline hover:outline-1 hover:outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
                   <div className="flex items-center justify-between gap-4 w-[320px] mx-auto group-hover:translate-y-[260px] transition-all duration-700">
                      <div className="w-32 h-[1px] group-hover:h-[2px] transition-all duration-500 group-hover:bg-green-60 bg-grey-15"></div>
                      <div>
@@ -63,7 +63,7 @@ function OurTestimonials() {
                   <span className="LexendFontRegular leading-[1.5] text-center text-green-60 group-hover:-translate-y-[260px] group-hover:scale-110 group-hover:rounded-lg group-hover:p-1 group-hover:text-xl transition-all duration-700">John D1</span>
                </div>
                {/* a card */}
-               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] hover:px-2 hover:shadow-shadowCardTestimonialsLg hover:h-[120%] hover:outline outline-1 outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
+               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] hover:px-2 hover:shadow-shadowCardTestimonialsLg hover:h-[120%] hover:outline hover:outline-1 hover:outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
                   <div className="flex items-center justify-between gap-4 w-[320px] mx-auto group-hover:translate-y-[260px] transition-all duration-700">
                      <div className="w-32 h-[1px] group-hover:h-[2px] transition-all duration-500 group-hover:bg-green-60 bg-grey-15"></div>
                      <div>
@@ -85,7 +85,7 @@ function OurTestimonials() {
                   <span className="LexendFontRegular leading-[1.5] text-center text-green-60 group-hover:-translate-y-[260px] group-hover:scale-110 group-hover:rounded-lg group-hover:p-1 group-hover:text-xl transition-all duration-700">John D2</span>
                </div>
                {/* a card */}
-               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] hover:px-2 hover:shadow-shadowCardTestimonialsLg hover:h-[120%] hover:outline outline-1 outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
+               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] hover:px-2 hover:shadow-shadowCardTestimonialsLg hover:h-[120%] hover:outline hover:outline-1 hover:outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
                   <div className="flex items-center justify-between gap-4 w-[320px] mx-auto group-hover:translate-y-[260px] transition-all duration-700">
                      <div className="w-32 h-[1px] group-hover:h-[2px] transition-all duration-500 group-hover:bg-green-60 bg-grey-15"></div>
                      <div>
@@ -107,7 +107,7 @@ function OurTestimonials() {
                   <span className="LexendFontRegular leading-[1.5] text-center text-green-60 group-hover:-translate-y-[260px] group-hover:scale-110 group-hover:rounded-lg group-hover:p-1 group-hover:text-xl transition-all duration-700">John D3</span>
                </div>
                {/* a card */}
-               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] hover:px-2 hover:shadow-shadowCardTestimonialsLg hover:h-[120%] hover:outline outline-1 outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
+               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] hover:px-2 hover:shadow-shadowCardTestimonialsLg hover:h-[120%] hover:outline hover:outline-1 hover:outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
                   <div className="flex items-center justify-between gap-4 w-[320px] mx-auto group-hover:translate-y-[260px] transition-all duration-700">
                      <div className="w-32 h-[1px] group-hover:h-[2px] transition-all duration-500 group-hover:bg-green-60 bg-grey-15"></div>
                      <div>
@@ -129,7 +129,7 @@ function OurTestimonials() {
                   <span className="LexendFontRegular leading-[1.5] text-center text-green-60 group-hover:-translate-y-[260px] group-hover:scale-110 group-hover:rounded-lg group-hover:p-1 group-hover:text-xl transition-all duration-700">John D4</span>
                </div>
                {/* a card */}
-               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] hover:px-2 hover:shadow-shadowCardTestimonialsLg hover:h-[120%] hover:outline outline-1 outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
+               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] hover:px-2 hover:shadow-shadowCardTestimonialsLg hover:h-[120%] hover:outline hover:outline-1 hover:outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
                   <div className="flex items-center justify-between gap-4 w-[320px] mx-auto group-hover:translate-y-[260px] transition-all duration-700">
                      <div className="w-32 h-[1px] group-hover:h-[2px] transition-all duration-500 group-hover:bg-green-60 bg-grey-15"></div>
                      <div>
@@ -151,7 +151,7 @@ function OurTestimonials() {
                   <span className="LexendFontRegular leading-[1.5] text-center text-green-60 group-hover:-translate-y-[260px] group-hover:scale-110 group-hover:rounded-lg group-hover:p-1 group-hover:text-xl transition-all duration-700">John D5</span>
                </div>
                {/* a card */}
-               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] hover:px-2 hover:shadow-shadowCardTestimonialsLg hover:h-[120%] hover:outline outline-1 outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
+               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] hover:px-2 hover:shadow-shadowCardTestimonialsLg hover:h-[120%] hover:outline hover:outline-1 hover:outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
                   <div className="flex items-center justify-between gap-4 w-[320px] mx-auto group-hover:translate-y-[260px] transition-all duration-700">
                      <div className="w-32 h-[1px] group-hover:h-[2px] transition-all duration-500 group-hover:bg-green-60 bg-grey-15"></div>
                      <div>
@@ -173,7 +173,7 @@ function OurTestimonials() {
                   <span className="LexendFontRegular leading-[1.5] text-center text-green-60 group-hover:-translate-y-[260px] group-hover:scale-110 group-hover:rounded-lg group-hover:p-1 group-hover:text-xl transition-all duration-700">John D6</span>
                </div>
                {/* a card */}
-               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] hover:px-2 hover:shadow-shadowCardTestimonialsLg hover:h-[120%] hover:outline outline-1 outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
+               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] hover:px-2 hover:shadow-shadowCardTestimonialsLg hover:h-[120%] hover:outline hover:outline-1 hover:outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
                   <div className="flex items-center justify-between gap-4 w-[320px] mx-auto group-hover:translate-y-[260px] transition-all duration-700">
                      <div className="w-32 h-[1px] group-hover:h-[2px] transition-all duration-500 group-hover:bg-green-60 bg-grey-15"></div>
                      <div>

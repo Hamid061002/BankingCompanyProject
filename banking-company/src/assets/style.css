@@ -1,26 +1,26 @@
 @font-face {
     font-family: LexendFontRegular;
-    src: url(../../public/Fonts/Lexend/static/Lexend-Regular.ttf);
+    src: url(../assets/public/Fonts/Lexend/static/Lexend-Regular.ttf);
 }
 
 @font-face {
     font-family: LexendFontMedium;
-    src: url(../../public/Fonts/Lexend/static/Lexend-Medium.ttf);
+    src: url(../assets/public/Fonts/Lexend/static/Lexend-Medium.ttf);
 }
 
 @font-face {
     font-family: LexendFontSemi;
-    src: url(../../public/Fonts/Lexend/static/Lexend-SemiBold.ttf);
+    src: url(../assets/public/Fonts/Lexend/static/Lexend-SemiBold.ttf);
 }
 
 @font-face {
     font-family: LexendFontBold;
-    src: url(../../public/Fonts/Lexend/static/Lexend-Bold.ttf);
+    src: url(../assets/public/Fonts/Lexend/static/Lexend-Bold.ttf);
 }
 
 @font-face {
     font-family: LexendFontLight;
-    src: url(../../public/Fonts/Lexend/static/Lexend-Light.ttf);
+    src: url(../assets/public/Fonts/Lexend/static/Lexend-Light.ttf);
 }
 
 .LexendFontRegular {
@@ -44,7 +44,7 @@
 }
 
 .bgHeader {
-    background-image: url(../../../public/images/Abstract\ Design.svg);
+    background-image: url(../assets/public/images/AbstractDesign.svg);
     background-size: 50%;
     /* box-shadow: 0 0 10px 10px black inset; */
 }
@@ -71,11 +71,11 @@
 }
 
 .useCaseBgStyleLeft {
-    background-image: url(../../public/images/Abstract\ Design\ useCase\ left.svg);
+    background-image: url(../assets/public/images/AbstractDesignUseCaseLeft.svg);
 }
 
 .useCaseBgStyleRight {
-    background-image: url(../../public/images/Abstract\ Design\ useCase\ right.svg);
+    background-image: url(../assets/public/images/AbstractDesignUseCaseRight.svg);
 }
 
 .useCaseIconsStyle {
@@ -86,7 +86,11 @@
 .bgLoginSignUp {
     border-radius: 20px;
     border: 1px solid var(--Grey-15, #262626);
-    background: url(../../../public/images/login&signUpBackGround.png);
+    background: url(../assets/public/images/login&signUpBackGround.png);
     background-size:  cover;
     background-repeat:  no-repeat;
+}
+
+.textWidth{
+    width: calc(100% - 28px);
 }

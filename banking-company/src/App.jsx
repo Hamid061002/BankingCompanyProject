@@ -5,14 +5,16 @@ import Home from './pages/home/Home'
 import { Route, Routes } from 'react-router-dom'
 import LoginPage from './pages/login page/LoginPage'
 import SignUpPage from './pages/sign up page/SignUpPage'
+import About from './pages/about/About'
 
 function App() {
    return (
       <div>
          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/Login" element={<LoginPage />} />
-            <Route path="/SignUp" element={<SignUpPage />} />
+            <Route path="/banking-company/" element={<Home />} />
+            <Route path="/banking-company/Login" element={<LoginPage />} />
+            <Route path="/banking-company/SignUp" element={<SignUpPage />} />
+            <Route path="/banking-company/About" element={<About />} />
          </Routes>         
       </div>
    )
