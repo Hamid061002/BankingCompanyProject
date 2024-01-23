@@ -1,7 +1,7 @@
 <h1>Your BanK Project</h1>
 <br>
 
-![Screenshot 2023-12-17 202802](https://github.com/Hamid061002/BankingCompanyProject/assets/124708686/13f11a64-05a6-45b3-80be-ab6f925bc74c)
+![image](https://github.com/Hamid061002/BankingCompanyProject/assets/124708686/141d600b-3f58-440e-abb8-b8347a1b4b8f)
 <br>
 <h3>ReactJS</h3>
 <h3>TailwindCSS</h3>
