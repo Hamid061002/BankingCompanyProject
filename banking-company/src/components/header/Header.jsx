@@ -28,7 +28,7 @@ function Header() {
                </Link>
                <div className="hidden lg:flex gap-[26px] LexendFontLight text-lg">
                   <Link to="/banking-company/" className="py-[10px] hover:px-[18px] rounded-full hover:bg-grey-15 transition-all duration-300 cursor-pointer leading-5">Home</Link>
-                  <div className="py-[10px] hover:px-[18px] rounded-full hover:bg-grey-15 transition-all duration-300 cursor-pointer leading-5">Careers</div>
+                  <Link to="/banking-company/Careers" className="py-[10px] hover:px-[18px] rounded-full hover:bg-grey-15 transition-all duration-300 cursor-pointer leading-5">Careers</Link>
                   <Link to="/banking-company/About" className="py-[10px] hover:px-[18px] rounded-full hover:bg-grey-15 transition-all duration-300 cursor-pointer leading-5">About</Link>
                   <div className="py-[10px] hover:px-[18px] rounded-full hover:bg-grey-15 transition-all duration-300 cursor-pointer leading-5">Security</div>
                </div>

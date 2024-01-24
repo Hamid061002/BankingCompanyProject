@@ -1,4 +1,3 @@
-import './AboutExcellence.css'
 import image from '../../assets/public/images/ImageTopAbout.png'
 
 function AboutExcellence() {
@@ -10,7 +9,7 @@ function AboutExcellence() {
          <div className="flex flex-col max-lg:items-center gap-[14px] lg:gap-[23px] absolute p-6 lg:p-[60px] left-[14px] max-lg:bottom-[14px] max-lg:rounded-[20px] textWidth lg:left-10 lg:w-[678px] h-[507px] rounded-l-[20px] rounded-tr-none rounded-br-[60px] bg-grey-10">
             <div className="flex flex-col max-lg:items-center text-white">
                <div className="LexendFontRegular max-lg:text-sm text-lg leading-[1.5]">Welcome to YourBank</div>
-               <div className="LexendFontRegular max-lg:text-center max-lg:text-[28px] text-5xl leading-[1.5]">
+               <div className="LexendFontRegular max-lg:text-center max-lg:text-[28px] text-5xl leading-[1.3]">
                   Where Banking Meets <span className="text-green-60">Excellence!</span>
                </div>
             </div>

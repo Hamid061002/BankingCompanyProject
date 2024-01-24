@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom'
 import LoginPage from './pages/login page/LoginPage'
 import SignUpPage from './pages/sign up page/SignUpPage'
 import About from './pages/about/About'
+import Careers from './pages/careers/Careers'
 
 function App() {
    return (
@@ -14,12 +15,9 @@ function App() {
             <Route path="/banking-company/" element={<Home />} />
             <Route path="/banking-company/Login" element={<LoginPage />} />
             <Route path="/banking-company/SignUp" element={<SignUpPage />} />
-<<<<<<< HEAD
             <Route path="/banking-company/About" element={<About />} />
+            <Route path="/banking-company/Careers" element={<Careers />} />
          </Routes>         
-=======
-         </Routes>
->>>>>>> f9c997372d540f5b044d2310393a36e99398f0d6
       </div>
    )
 }
