@@ -41,8 +41,8 @@ function OurTestimonials() {
                className="flex items-start justify-center flex-row max-lg:p-5 max-lg:rounded-xl max-lg:border max-lg:border-grey-15 max-lg:overflow-x-hidden gap-[60px] max-lg:max-w-[358px] relative overflow-hidden"
                >
                {/* a card */}
-               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] hover:px-2 hover:shadow-shadowCardTestimonialsLg hover:h-[120%] hover:outline hover:outline-1 hover:outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
-                  <div className="flex items-center justify-between gap-4 w-[320px] mx-auto group-hover:translate-y-[260px] transition-all duration-700">
+               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] px-2 hover:px-4 hover:shadow-shadowCardTestimonialsLg h-[320px] hover:h-[120%] hover:outline hover:outline-1 hover:outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
+                  <div className="flex items-center justify-between gap-4 w-[320px] mx-auto group-hover:translate-y-[250px] transition-all duration-700">
                      <div className="w-32 h-[1px] group-hover:h-[2px] transition-all duration-500 group-hover:bg-green-60 bg-grey-15"></div>
                      <div>
                         <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -57,14 +57,14 @@ function OurTestimonials() {
                      </div>
                      <div className="w-32 h-[1px] group-hover:h-[2px] transition-all duration-500 group-hover:bg-green-60 bg-grey-15"></div>
                   </div>
-                  <p className="LexendFontRegular leading-[1.5] text-center text-white max-lg:text-sm group-hover:-translate-y-0 group-hover:text-lg transition-all duration-700">
+                  <p className="LexendFontRegular leading-[1.5] text-center text-white max-lg:text-sm group-hover:-translate-y-0 group-hover:scale-105 transition-all duration-700">
                      I recently started my own business, and YourBank has been instrumental in helping me set up my business accounts and secure the financing I needed. Their expert guidance and tailored solutions have been invaluable.
                   </p>
-                  <span className="LexendFontRegular leading-[1.5] text-center text-green-60 group-hover:-translate-y-[260px] group-hover:scale-110 group-hover:rounded-lg group-hover:p-1 group-hover:text-xl transition-all duration-700">John D1</span>
+                  <span className="LexendFontRegular leading-[1.5] text-center text-green-60 group-hover:-translate-y-[220px] group-hover:scale-110 group-hover:rounded-lg group-hover:p-1 group-hover:text-xl transition-all duration-700">John D1</span>
                </div>
                {/* a card */}
-               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] hover:px-2 hover:shadow-shadowCardTestimonialsLg hover:h-[120%] hover:outline hover:outline-1 hover:outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
-                  <div className="flex items-center justify-between gap-4 w-[320px] mx-auto group-hover:translate-y-[260px] transition-all duration-700">
+               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] px-2 hover:px-4 hover:shadow-shadowCardTestimonialsLg h-[320px] hover:h-[120%] hover:outline hover:outline-1 hover:outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
+                  <div className="flex items-center justify-between gap-4 w-[320px] mx-auto group-hover:translate-y-[250px] transition-all duration-700">
                      <div className="w-32 h-[1px] group-hover:h-[2px] transition-all duration-500 group-hover:bg-green-60 bg-grey-15"></div>
                      <div>
                         <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -79,14 +79,14 @@ function OurTestimonials() {
                      </div>
                      <div className="w-32 h-[1px] group-hover:h-[2px] transition-all duration-500 group-hover:bg-green-60 bg-grey-15"></div>
                   </div>
-                  <p className="LexendFontRegular leading-[1.5] text-center text-white max-lg:text-sm group-hover:-translate-y-0 group-hover:text-lg transition-all duration-700">
+                  <p className="LexendFontRegular leading-[1.5] text-center text-white max-lg:text-sm group-hover:-translate-y-0 group-hover:scale-105 transition-all duration-700">
                      I recently started my own business, and YourBank has been instrumental in helping me set up my business accounts and secure the financing I needed. Their expert guidance and tailored solutions have been invaluable.
                   </p>
-                  <span className="LexendFontRegular leading-[1.5] text-center text-green-60 group-hover:-translate-y-[260px] group-hover:scale-110 group-hover:rounded-lg group-hover:p-1 group-hover:text-xl transition-all duration-700">John D2</span>
+                  <span className="LexendFontRegular leading-[1.5] text-center text-green-60 group-hover:-translate-y-[220px] group-hover:scale-110 group-hover:rounded-lg group-hover:p-1 group-hover:text-xl transition-all duration-700">John D2</span>
                </div>
                {/* a card */}
-               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] hover:px-2 hover:shadow-shadowCardTestimonialsLg hover:h-[120%] hover:outline hover:outline-1 hover:outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
-                  <div className="flex items-center justify-between gap-4 w-[320px] mx-auto group-hover:translate-y-[260px] transition-all duration-700">
+               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] px-2 hover:px-4 hover:shadow-shadowCardTestimonialsLg h-[320px] hover:h-[120%] hover:outline hover:outline-1 hover:outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
+                  <div className="flex items-center justify-between gap-4 w-[320px] mx-auto group-hover:translate-y-[250px] transition-all duration-700">
                      <div className="w-32 h-[1px] group-hover:h-[2px] transition-all duration-500 group-hover:bg-green-60 bg-grey-15"></div>
                      <div>
                         <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -101,14 +101,14 @@ function OurTestimonials() {
                      </div>
                      <div className="w-32 h-[1px] group-hover:h-[2px] transition-all duration-500 group-hover:bg-green-60 bg-grey-15"></div>
                   </div>
-                  <p className="LexendFontRegular leading-[1.5] text-center text-white max-lg:text-sm group-hover:-translate-y-0 group-hover:text-lg transition-all duration-700">
+                  <p className="LexendFontRegular leading-[1.5] text-center text-white max-lg:text-sm group-hover:-translate-y-0 group-hover:scale-105 transition-all duration-700">
                      I recently started my own business, and YourBank has been instrumental in helping me set up my business accounts and secure the financing I needed. Their expert guidance and tailored solutions have been invaluable.
                   </p>
-                  <span className="LexendFontRegular leading-[1.5] text-center text-green-60 group-hover:-translate-y-[260px] group-hover:scale-110 group-hover:rounded-lg group-hover:p-1 group-hover:text-xl transition-all duration-700">John D3</span>
+                  <span className="LexendFontRegular leading-[1.5] text-center text-green-60 group-hover:-translate-y-[220px] group-hover:scale-110 group-hover:rounded-lg group-hover:p-1 group-hover:text-xl transition-all duration-700">John D3</span>
                </div>
                {/* a card */}
-               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] hover:px-2 hover:shadow-shadowCardTestimonialsLg hover:h-[120%] hover:outline hover:outline-1 hover:outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
-                  <div className="flex items-center justify-between gap-4 w-[320px] mx-auto group-hover:translate-y-[260px] transition-all duration-700">
+               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] px-2 hover:px-4 hover:shadow-shadowCardTestimonialsLg h-[320px] hover:h-[120%] hover:outline hover:outline-1 hover:outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
+                  <div className="flex items-center justify-between gap-4 w-[320px] mx-auto group-hover:translate-y-[250px] transition-all duration-700">
                      <div className="w-32 h-[1px] group-hover:h-[2px] transition-all duration-500 group-hover:bg-green-60 bg-grey-15"></div>
                      <div>
                         <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -123,14 +123,14 @@ function OurTestimonials() {
                      </div>
                      <div className="w-32 h-[1px] group-hover:h-[2px] transition-all duration-500 group-hover:bg-green-60 bg-grey-15"></div>
                   </div>
-                  <p className="LexendFontRegular leading-[1.5] text-center text-white max-lg:text-sm group-hover:-translate-y-0 group-hover:text-lg transition-all duration-700">
+                  <p className="LexendFontRegular leading-[1.5] text-center text-white max-lg:text-sm group-hover:-translate-y-0 group-hover:scale-105 transition-all duration-700">
                      I recently started my own business, and YourBank has been instrumental in helping me set up my business accounts and secure the financing I needed. Their expert guidance and tailored solutions have been invaluable.
                   </p>
-                  <span className="LexendFontRegular leading-[1.5] text-center text-green-60 group-hover:-translate-y-[260px] group-hover:scale-110 group-hover:rounded-lg group-hover:p-1 group-hover:text-xl transition-all duration-700">John D4</span>
+                  <span className="LexendFontRegular leading-[1.5] text-center text-green-60 group-hover:-translate-y-[220px] group-hover:scale-110 group-hover:rounded-lg group-hover:p-1 group-hover:text-xl transition-all duration-700">John D4</span>
                </div>
                {/* a card */}
-               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] hover:px-2 hover:shadow-shadowCardTestimonialsLg hover:h-[120%] hover:outline hover:outline-1 hover:outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
-                  <div className="flex items-center justify-between gap-4 w-[320px] mx-auto group-hover:translate-y-[260px] transition-all duration-700">
+               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] px-2 hover:px-4 hover:shadow-shadowCardTestimonialsLg h-[320px] hover:h-[120%] hover:outline hover:outline-1 hover:outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
+                  <div className="flex items-center justify-between gap-4 w-[320px] mx-auto group-hover:translate-y-[250px] transition-all duration-700">
                      <div className="w-32 h-[1px] group-hover:h-[2px] transition-all duration-500 group-hover:bg-green-60 bg-grey-15"></div>
                      <div>
                         <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -145,14 +145,14 @@ function OurTestimonials() {
                      </div>
                      <div className="w-32 h-[1px] group-hover:h-[2px] transition-all duration-500 group-hover:bg-green-60 bg-grey-15"></div>
                   </div>
-                  <p className="LexendFontRegular leading-[1.5] text-center text-white max-lg:text-sm group-hover:-translate-y-0 group-hover:text-lg transition-all duration-700">
+                  <p className="LexendFontRegular leading-[1.5] text-center text-white max-lg:text-sm group-hover:-translate-y-0 group-hover:scale-105 transition-all duration-700">
                      I recently started my own business, and YourBank has been instrumental in helping me set up my business accounts and secure the financing I needed. Their expert guidance and tailored solutions have been invaluable.
                   </p>
-                  <span className="LexendFontRegular leading-[1.5] text-center text-green-60 group-hover:-translate-y-[260px] group-hover:scale-110 group-hover:rounded-lg group-hover:p-1 group-hover:text-xl transition-all duration-700">John D5</span>
+                  <span className="LexendFontRegular leading-[1.5] text-center text-green-60 group-hover:-translate-y-[220px] group-hover:scale-110 group-hover:rounded-lg group-hover:p-1 group-hover:text-xl transition-all duration-700">John D5</span>
                </div>
                {/* a card */}
-               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] hover:px-2 hover:shadow-shadowCardTestimonialsLg hover:h-[120%] hover:outline hover:outline-1 hover:outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
-                  <div className="flex items-center justify-between gap-4 w-[320px] mx-auto group-hover:translate-y-[260px] transition-all duration-700">
+               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] px-2 hover:px-4 hover:shadow-shadowCardTestimonialsLg h-[320px] hover:h-[120%] hover:outline hover:outline-1 hover:outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
+                  <div className="flex items-center justify-between gap-4 w-[320px] mx-auto group-hover:translate-y-[250px] transition-all duration-700">
                      <div className="w-32 h-[1px] group-hover:h-[2px] transition-all duration-500 group-hover:bg-green-60 bg-grey-15"></div>
                      <div>
                         <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -167,14 +167,14 @@ function OurTestimonials() {
                      </div>
                      <div className="w-32 h-[1px] group-hover:h-[2px] transition-all duration-500 group-hover:bg-green-60 bg-grey-15"></div>
                   </div>
-                  <p className="LexendFontRegular leading-[1.5] text-center text-white max-lg:text-sm group-hover:-translate-y-0 group-hover:text-lg transition-all duration-700">
+                  <p className="LexendFontRegular leading-[1.5] text-center text-white max-lg:text-sm group-hover:-translate-y-0 group-hover:scale-105 transition-all duration-700">
                      I recently started my own business, and YourBank has been instrumental in helping me set up my business accounts and secure the financing I needed. Their expert guidance and tailored solutions have been invaluable.
                   </p>
-                  <span className="LexendFontRegular leading-[1.5] text-center text-green-60 group-hover:-translate-y-[260px] group-hover:scale-110 group-hover:rounded-lg group-hover:p-1 group-hover:text-xl transition-all duration-700">John D6</span>
+                  <span className="LexendFontRegular leading-[1.5] text-center text-green-60 group-hover:-translate-y-[220px] group-hover:scale-110 group-hover:rounded-lg group-hover:p-1 group-hover:text-xl transition-all duration-700">John D6</span>
                </div>
                {/* a card */}
-               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] hover:px-2 hover:shadow-shadowCardTestimonialsLg hover:h-[120%] hover:outline hover:outline-1 hover:outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
-                  <div className="flex items-center justify-between gap-4 w-[320px] mx-auto group-hover:translate-y-[260px] transition-all duration-700">
+               <div className="flex-none flex flex-col gap-10 w-[320px] transition-all duration-500 group hover:bg-dark-green hover:rounded-3xl hover:w-[400px] px-2 hover:px-4 hover:shadow-shadowCardTestimonialsLg h-[320px] hover:h-[120%] hover:outline hover:outline-1 hover:outline-green-60" style={{ transform: `translateX(${temp}px)` }}>
+                  <div className="flex items-center justify-between gap-4 w-[320px] mx-auto group-hover:translate-y-[250px] transition-all duration-700">
                      <div className="w-32 h-[1px] group-hover:h-[2px] transition-all duration-500 group-hover:bg-green-60 bg-grey-15"></div>
                      <div>
                         <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -189,10 +189,10 @@ function OurTestimonials() {
                      </div>
                      <div className="w-32 h-[1px] group-hover:h-[2px] transition-all duration-500 group-hover:bg-green-60 bg-grey-15"></div>
                   </div>
-                  <p className="LexendFontRegular leading-[1.5] text-center text-white max-lg:text-sm group-hover:-translate-y-0 group-hover:text-lg transition-all duration-700">
+                  <p className="LexendFontRegular leading-[1.5] text-center text-white max-lg:text-sm group-hover:-translate-y-0 group-hover:scale-105 transition-all duration-700">
                      I recently started my own business, and YourBank has been instrumental in helping me set up my business accounts and secure the financing I needed. Their expert guidance and tailored solutions have been invaluable.
                   </p>
-                  <span className="LexendFontRegular leading-[1.5] text-center text-green-60 group-hover:-translate-y-[260px] group-hover:scale-110 group-hover:rounded-lg group-hover:p-1 group-hover:text-xl transition-all duration-700">John D7</span>
+                  <span className="LexendFontRegular leading-[1.5] text-center text-green-60 group-hover:-translate-y-[220px] group-hover:scale-110 group-hover:rounded-lg group-hover:p-1 group-hover:text-xl transition-all duration-700">John D7</span>
                </div>
                {/* shadow box sm */}
                <div className="lg:hidden absolute w-full h-full max-lg:shadow-shadowCardTestimonialsLg"></div>
