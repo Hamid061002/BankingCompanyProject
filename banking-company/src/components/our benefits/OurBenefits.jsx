@@ -165,13 +165,6 @@ function OurBenefits() {
                </div>
             </div>
          </div>
-         <div className="bgStart flex flex-col lg:flex-row gap-6 lg:gap-[150px] justify-center lg:justify-between items-center mt-[120px] lg:mt-10 rounded-[20px] border border-grey-15 p-[30px] lg:p-[60px] bgCTA bg-grey-11 bg-no-repeat">
-            <div className="flex flex-col gap-[14px] lg:gap-[10px] max-lg:text-center">
-               <div className="LexendFontRegular text-2xl lg:text-3xl text-white leading-[1.5]">Start your financial journey with <span className="text-green-60">YourBank today!</span></div>
-               <div className="LexendFontLight font-extralight text-grey-70 leading-[1.5]">Lorem ipsum dolor sit amet consectetur. Blandit odio semper risus pellentesque elit. Pellentesque eget ut imperdiet nulla penatibus. Nascetur viverra arcu sed amet cursus purus.</div>
-            </div>
-            <div className="LexendFontRegular text-sm text-grey-11 bg-green-60 rounded-full py-[14px] px-5 whitespace-nowrap cursor-pointer hover:-translate-y-1 active:bg-dark-green active:text-green-60 transition-all duration-300">Open Account</div>
-         </div>
       </section>
    )
 }
