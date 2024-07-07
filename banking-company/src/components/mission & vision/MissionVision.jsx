@@ -25,10 +25,10 @@ function MissionVision() {
         </div>
       </div>
       <div className="relative lg:mb-[416px] max-lg:flex max-lg:flex-col max-lg:gap-[50px]">
-        <div className="flex max-lg:flex-col items-center max-lg:text-center max-lg:gap-[30px]">
+        <div className="flex max-lg:flex-col items-center max-lg:text-center max-lg:gap-[30px] overflow-hidden">
           <div onMouseOver={() => setAnimateMoveMission(true)} onMouseOut={() => setAnimateMoveMission(false)} className="flex-none bgMissionVision2 rounded-t-[50px] rounded-b-[20px] transition-all duration-1000 group hover:bg-green-60 hover:bg-opacity-10 relative">
             <div className="bgMissionVision bg-center p-5 lg:p-[60px] lg:pb-0">
-              <img className="w-full transition-all duration-[1000ms] group-hover:rounded-t-[200px]" src={mission} alt="" />
+              <img className="w-full transition-all duration-[1000ms] group-hover:rounded-t-[200px] group-hover:scale-105" src={mission} alt="" />
             </div>
             <div className="lg:hidden w-full h-[1.5px] absolute bg-green-60"></div>
           </div>
@@ -43,10 +43,10 @@ function MissionVision() {
             <div className={animateMoveMission ? `${bgDarkGreenMission} w-full` : `${bgDarkGreenMission}`}></div>
           </div>
         </div>
-        <div className="lg:absolute flex flex-col items-center max-lg:text-center max-lg:gap-[30px] -bottom-[416px] lg:flex-row-reverse">
+        <div className="lg:absolute flex flex-col items-center max-lg:text-center max-lg:gap-[30px] -bottom-[416px] lg:flex-row-reverse overflow-hidden">
           <div onMouseOver={() => setAnimateMoveVision(true)} onMouseOut={() => setAnimateMoveVision(false)} className="flex-none bgMissionVision2 rounded-t-[50px] rounded-b-[20px] transition-all duration-1000 group hover:bg-green-60 hover:bg-opacity-10 relative">
             <div className="bgMissionVision bg-center p-5 lg:p-[60px] lg:pb-0">
-              <img className="w-full transition-all duration-[1000ms] group-hover:rounded-t-[200px]" src={vision} alt="" />
+              <img className="w-full transition-all duration-[1000ms] group-hover:rounded-t-[200px] group-hover:scale-105" src={vision} alt="" />
             </div>
             <div className="lg:hidden w-full h-[1.5px] absolute bg-green-60"></div>
           </div>
