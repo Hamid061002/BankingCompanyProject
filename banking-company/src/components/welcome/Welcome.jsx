@@ -1,7 +1,7 @@
 import './Welcome.css'
 import india from '../../assets/public/images/india.svg'
 import usa from '../../assets/public/images/usa.svg'
-import arrows from '../../assets/public/images/Arrows.svg'
+import arrows from '../../assets/public/images/arrows.svg'
 function Welcome() {
    return (
       <section className="flex gap-[100px] px-4 lg:ps-20 lg:pe-[200px] pt-[144px]">
